@@ -2,6 +2,7 @@ import { describe, it, expect, beforeAll } from "vitest";
 import app from "../src/index.ts";
 import {
   listGuides, getGuide, getGuideTree, safeGuideSlug, guideStepCount, guideImageSrc,
+  sanitizeMediaEntry,
 } from "../src/lib/guides.ts";
 import { GUIDES } from "../src/data/guideCatalog.ts";
 import { computeMcpResult, TOOLS } from "../src/routes/mcp.ts";
@@ -368,6 +369,121 @@ describe("guide discovery surface", () => {
     const inner = computeMcpResult("tools/call", { name: "get_guide", arguments: { slug: "yoga" } }, BASE);
     expect(inner.ok).toBe(false);
     expect(inner.error?.code).toBe(-32602);
+  });
+});
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Media provenance
+//
+// free-exercise-db imagery has a broken licence chain (the upstream compiler
+// states he does not own the copyright; the fork maintainer does not know the
+// origin), so the API must not restate the public-domain dedication that was
+// applied downstream. Everything else the catalog records must reach consumers
+// untouched — downstream users need it to know what they may not redistribute.
+// ─────────────────────────────────────────────────────────────────────────────
+const ALL_TREE_SLUGS = Object.keys(GUIDES.calisthenics.trees);
+
+function mediaOf(treeSlug: string): Record<string, unknown>[] {
+  const { tree } = getGuideTree("calisthenics", treeSlug, BASE);
+  const steps = (tree!.steps || []) as { media?: Record<string, unknown>[] }[];
+  return steps.flatMap((s) => s.media || []);
+}
+
+describe("media provenance", () => {
+  it("no guide response asserts CC0 or public domain for imagery", () => {
+    for (const slug of ALL_TREE_SLUGS) {
+      const serialized = JSON.stringify(getGuideTree("calisthenics", slug, BASE).tree);
+      expect(serialized, `${slug} restates a public-domain claim`).not.toMatch(/cc0/i);
+      expect(serialized, `${slug} restates a public-domain claim`).not.toMatch(/public[-\s]?domain/i);
+      expect(serialized, `${slug} restates an Unlicense claim`).not.toMatch(/unlicense/i);
+    }
+  });
+
+  it("marks every free-exercise-db image as unverified and not redistributable", () => {
+    let checked = 0;
+    for (const slug of ALL_TREE_SLUGS) {
+      for (const m of mediaOf(slug)) {
+        if (m.provider !== "anatome-gif") continue;
+        checked++;
+        expect(m.license).toBe("unverified");
+        expect(m.license_url).toBeNull();
+        expect(m.redistributable).toBe(false);
+        expect(String(m.license_note)).toContain("issues/");
+      }
+    }
+    expect(checked).toBeGreaterThan(0);
+  });
+
+  it("passes every other provenance field through unmodified", () => {
+    for (const slug of ALL_TREE_SLUGS) {
+      const raw = GUIDES.calisthenics.trees[slug].steps.flatMap(
+        (s) => (s.media || []) as Record<string, unknown>[],
+      );
+      const served = mediaOf(slug);
+      expect(served).toHaveLength(raw.length);
+      raw.forEach((before, i) => {
+        const after = served[i];
+        // Identity fields are never rewritten, on any entry.
+        for (const k of ["provider", "url", "title", "channel", "role", "source_url", "ai_generated", "ext_id"]) {
+          if (k in before) expect(after[k], `${slug}.${k}`).toEqual(before[k]);
+        }
+        // Entries outside the defective chain are passed through byte-for-byte,
+        // including redistributable:false and share-alike markers.
+        if (before.provider !== "anatome-gif") {
+          expect(after, `${slug} ${String(before.provider)}`).toEqual(before);
+        }
+      });
+    }
+  });
+
+  it("keeps non-redistributable YouTube entries flagged as such", () => {
+    const youtube = ALL_TREE_SLUGS.flatMap(mediaOf).filter((m) => m.provider === "youtube");
+    expect(youtube.length).toBeGreaterThan(0);
+    for (const m of youtube) {
+      expect(m.redistributable).toBe(false);
+      expect(m.license).toBe("youtube-standard");
+    }
+  });
+
+  it("keeps AI-generated media flagged with its model provenance", () => {
+    const ai = ALL_TREE_SLUGS.flatMap(mediaOf).filter((m) => m.ai_generated === true);
+    expect(ai.length).toBeGreaterThan(0);
+    for (const m of ai) {
+      expect(m.redistributable).toBe(true);
+      expect(m.generator).toBeTruthy();
+      expect(String(m.attribution)).toContain("AI-generated");
+    }
+  });
+
+  it("is idempotent — an already-honest entry is left alone", () => {
+    const honest = {
+      provider: "anatome-gif",
+      url: "https://api.anatome.dev/exerciseGif?id=Pushups",
+      license: "unverified",
+      license_url: null,
+      redistributable: false,
+    };
+    expect(sanitizeMediaEntry(honest)).toEqual(honest);
+    // A genuinely CC0 image from a sound source is not downgraded.
+    const commons = {
+      provider: "commons",
+      url: "https://upload.wikimedia.org/example.jpg",
+      source_url: "https://commons.wikimedia.org/wiki/File:Example.jpg",
+      license: "CC0-1.0",
+      redistributable: true,
+    };
+    expect(sanitizeMediaEntry(commons)).toEqual(commons);
+  });
+
+  it("catches the defective chain by source_url and by proxy URL, not just provider", () => {
+    for (const entry of [
+      { provider: "other", source_url: "https://github.com/yuhonas/free-exercise-db/blob/main/x.json", license: "CC0-1.0" },
+      { provider: "other", url: "https://api.anatome.dev/exerciseImage?path=Squat%2F0.jpg", license: "public domain" },
+    ]) {
+      const out = sanitizeMediaEntry(entry) as Record<string, unknown>;
+      expect(out.license).toBe("unverified");
+      expect(out.redistributable).toBe(false);
+    }
   });
 });
 

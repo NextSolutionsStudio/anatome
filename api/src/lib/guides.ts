@@ -7,6 +7,67 @@ import {
   type Guide, type GuideTreeDoc, type GuideTreeSummary,
 } from "../data/guideCatalog.ts";
 
+/** Tracking issue for the defective free-exercise-db imagery licence chain. */
+export const MEDIA_PROVENANCE_ISSUE =
+  "https://github.com/NextSolutionsStudio/anatome/issues/21";
+
+const DEFECTIVE_LICENCE_CLAIM = /^(cc0|public[-\s]?domain|unlicense)/i;
+
+/**
+ * Imagery derived from free-exercise-db carries a broken licence chain: the
+ * upstream compiler scraped the photos and says so ("I do not own the copyright
+ * for these images"), and the fork maintainer confirms he does not know their
+ * origin. The public-domain dedication was applied downstream by someone who
+ * never held the rights, so it is not ours to pass on. The exercise *metadata*
+ * is genuinely offered under the Unlicense and is unaffected.
+ *
+ * The catalog still labels these entries CC0-1.0. Rather than restating a claim
+ * the project cannot grant, guide responses downgrade exactly those entries to
+ * an unverified, non-redistributable state. Every other field — and every other
+ * media entry — passes through untouched, so honest provenance from the catalog
+ * reaches consumers verbatim. Once upstream records the unverified state itself
+ * this becomes a no-op. See MEDIA_PROVENANCE_ISSUE.
+ */
+function fromFreeExerciseDb(m: Record<string, unknown>): boolean {
+  const provider = String(m.provider || "");
+  const source = String(m.source_url || "");
+  const url = String(m.url || "");
+  return provider === "anatome-gif"
+    || source.includes("free-exercise-db")
+    || /\/(exerciseGif|exerciseImage)\b/.test(url);
+}
+
+export function sanitizeMediaEntry(entry: unknown): unknown {
+  if (!entry || typeof entry !== "object") return entry;
+  const m = entry as Record<string, unknown>;
+  if (!fromFreeExerciseDb(m)) return m;
+  if (!DEFECTIVE_LICENCE_CLAIM.test(String(m.license || ""))) return m;
+  return {
+    ...m,
+    license: "unverified",
+    license_url: null,
+    redistributable: false,
+    tier: "unverified-provenance",
+    attribution:
+      `Source imagery of unknown origin, redistributed via free-exercise-db. The upstream `
+      + `compiler states he does not hold the copyright to these images, so the licence `
+      + `applied downstream cannot be relied on. Treat as not redistributable.`,
+    license_note:
+      `Licence claim withheld: the free-exercise-db dedication is not supported by its own `
+      + `upstream, which disclaims ownership of the imagery. Tracking: ${MEDIA_PROVENANCE_ISSUE}`,
+  };
+}
+
+function sanitizeSteps(steps: unknown): unknown {
+  if (!Array.isArray(steps)) return steps;
+  return steps.map((step) => {
+    if (!step || typeof step !== "object") return step;
+    const s = step as Record<string, unknown>;
+    if (!Array.isArray(s.media)) return s;
+    return { ...s, media: s.media.map(sanitizeMediaEntry) };
+  });
+}
+
 /**
  * Accept only the slug shape the catalog actually uses: lowercase alnum words
  * joined by single hyphens. Rejects traversal (`..`, `%2e%2e` once decoded),
@@ -133,6 +194,7 @@ export function getGuideTree(guideRaw: unknown, treeRaw: unknown, base: string):
     tree: {
       guide_slug: guideSlug,
       ...doc,
+      steps: sanitizeSteps(doc.steps),
       anatome_imageSrc: guideImageSrc(tree, base),
       ...(sourceNotice ? { guide_catalog_attribution_detail: sourceNotice } : {}),
     },

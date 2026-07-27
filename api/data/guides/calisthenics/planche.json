@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "kind": "skill_tree",
   "slug": "planche",
   "name": "Planche",
@@ -153,16 +153,49 @@
           "title": "Pseudo Planche Done RIGHT — demo clip",
           "channel": "FitnessFAQs",
           "start_seconds": 45,
-          "end_seconds": 70
+          "end_seconds": 70,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=odcPqBOlJhI",
+          "attribution": "FitnessFAQs — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
-          "provider": "anatome-gif",
-          "url": "https://api.anatome.dev/exerciseGif?id=Pushups",
-          "title": "Form GIF · Pushups",
-          "channel": "anatome.dev",
-          "ext_id": "Pushups"
+          "provider": "cali-gif",
+          "url": "assets/gifs/tuck-planche.gif",
+          "title": "Demo GIF · planche (AI)",
+          "channel": "anatome.dev · AI demo",
+          "file": "tuck-planche.gif",
+          "role": "demo",
+          "license": "Apache-2.0",
+          "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+          "source_url": "https://github.com/Rippy1911/base44/blob/main/_content/calisthenics/site/assets/gifs/tuck-planche.gif",
+          "attribution": "AI-generated demonstration (tuck-planche.gif) produced with fal-ai/flux/schnell. The FLUX.1 [schnell] model is released under Apache-2.0. Generated for NextSolutions; illustrative of the shape, not a recording of a real athlete.",
+          "ai_generated": true,
+          "redistributable": true,
+          "tier": "ai-generated",
+          "generator": "fal-ai/flux/schnell",
+          "model": "FLUX.1 [schnell]"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 4,
+          "max": 8
+        },
+        "from_level": "20 strict push-ups and pain-free loaded wrist extension",
+        "conditioning_hours_per_week": 4,
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "stevenlow-rate-adaptation",
+          "straighttalking-cali-timelines"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -204,21 +237,53 @@
       "media": [
         {
           "provider": "youtube",
-          "url": "https://www.youtube.com/watch?v=MJrFdfNmIEU",
-          "title": "Elbow lever — demo clip",
-          "channel": "Simonster Strength",
-          "start_seconds": 15,
-          "end_seconds": 40
+          "url": "https://www.youtube.com/watch?v=LgPG0MZPI84",
+          "title": "Planche shapes — demo clip",
+          "channel": "Andry Strong",
+          "start_seconds": 60,
+          "end_seconds": 90,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=LgPG0MZPI84",
+          "attribution": "Andry Strong — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "cali-gif",
           "url": "assets/gifs/frog-stand.gif",
           "title": "Demo GIF · frog stand (AI)",
           "channel": "anatome.dev · AI demo",
+          "file": "frog-stand.gif",
+          "role": "demo",
+          "license": "Apache-2.0",
+          "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+          "source_url": "https://github.com/Rippy1911/base44/blob/main/_content/calisthenics/site/assets/gifs/frog-stand.gif",
+          "attribution": "AI-generated demonstration (frog-stand.gif) produced with fal-ai/flux/schnell. The FLUX.1 [schnell] model is released under Apache-2.0. Generated for NextSolutions; illustrative of the shape, not a recording of a real athlete.",
           "ai_generated": true,
-          "file": "frog-stand.gif"
+          "redistributable": true,
+          "tier": "ai-generated",
+          "generator": "fal-ai/flux/schnell",
+          "model": "FLUX.1 [schnell]"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 3,
+          "max": 6
+        },
+        "from_level": "45s planche lean at 30°",
+        "conditioning_hours_per_week": 4,
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "stevenlow-rate-adaptation",
+          "straighttalking-cali-timelines"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -267,17 +332,47 @@
           "title": "Tuck planche — demo clip",
           "channel": "Vitaly Pavlenko",
           "start_seconds": 20,
-          "end_seconds": 45
+          "end_seconds": 45,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=YHkHgJOAe9A",
+          "attribution": "Vitaly Pavlenko — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "cali-gif",
           "url": "assets/gifs/tuck-planche.gif",
           "title": "Demo GIF · tuck planche (AI)",
           "channel": "anatome.dev · AI demo",
+          "file": "tuck-planche.gif",
+          "role": "demo",
+          "license": "Apache-2.0",
+          "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+          "source_url": "https://github.com/Rippy1911/base44/blob/main/_content/calisthenics/site/assets/gifs/tuck-planche.gif",
+          "attribution": "AI-generated demonstration (tuck-planche.gif) produced with fal-ai/flux/schnell. The FLUX.1 [schnell] model is released under Apache-2.0. Generated for NextSolutions; illustrative of the shape, not a recording of a real athlete.",
           "ai_generated": true,
-          "file": "tuck-planche.gif"
+          "redistributable": true,
+          "tier": "ai-generated",
+          "generator": "fal-ai/flux/schnell",
+          "model": "FLUX.1 [schnell]"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 8,
+          "max": 16
+        },
+        "from_level": "30s frog stand and a 60s planche lean at 45°",
+        "conditioning_hours_per_week": 4,
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "overcoming-gravity-2e"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -314,17 +409,49 @@
           "title": "Tuck planche — demo clip",
           "channel": "Vitaly Pavlenko",
           "start_seconds": 20,
-          "end_seconds": 45
+          "end_seconds": 45,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=YHkHgJOAe9A",
+          "attribution": "Vitaly Pavlenko — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "cali-gif",
           "url": "assets/gifs/tuck-planche.gif",
           "title": "Demo GIF · tuck planche (AI)",
           "channel": "anatome.dev · AI demo",
+          "file": "tuck-planche.gif",
+          "role": "demo",
+          "license": "Apache-2.0",
+          "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+          "source_url": "https://github.com/Rippy1911/base44/blob/main/_content/calisthenics/site/assets/gifs/tuck-planche.gif",
+          "attribution": "AI-generated demonstration (tuck-planche.gif) produced with fal-ai/flux/schnell. The FLUX.1 [schnell] model is released under Apache-2.0. Generated for NextSolutions; illustrative of the shape, not a recording of a real athlete.",
           "ai_generated": true,
-          "file": "tuck-planche.gif"
+          "redistributable": true,
+          "tier": "ai-generated",
+          "generator": "fal-ai/flux/schnell",
+          "model": "FLUX.1 [schnell]"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 4,
+          "max": 10
+        },
+        "from_level": "30s floor tuck planche",
+        "conditioning_hours_per_week": 4,
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "stevenlow-rate-adaptation",
+          "straighttalking-cali-timelines"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -371,17 +498,49 @@
           "title": "Planche shapes — demo clip",
           "channel": "Andry Strong",
           "start_seconds": 60,
-          "end_seconds": 90
+          "end_seconds": 90,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=LgPG0MZPI84",
+          "attribution": "Andry Strong — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "cali-gif",
           "url": "assets/gifs/advanced-tuck-planche.gif",
           "title": "Demo GIF · advanced tuck planche (AI)",
           "channel": "anatome.dev · AI demo",
+          "file": "advanced-tuck-planche.gif",
+          "role": "demo",
+          "license": "Apache-2.0",
+          "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+          "source_url": "https://github.com/Rippy1911/base44/blob/main/_content/calisthenics/site/assets/gifs/advanced-tuck-planche.gif",
+          "attribution": "AI-generated demonstration (advanced-tuck-planche.gif) produced with fal-ai/flux/schnell. The FLUX.1 [schnell] model is released under Apache-2.0. Generated for NextSolutions; illustrative of the shape, not a recording of a real athlete.",
           "ai_generated": true,
-          "file": "advanced-tuck-planche.gif"
+          "redistributable": true,
+          "tier": "ai-generated",
+          "generator": "fal-ai/flux/schnell",
+          "model": "FLUX.1 [schnell]"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 16,
+          "max": 36
+        },
+        "from_level": "60s tuck planche on parallettes",
+        "conditioning_hours_per_week": 4,
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "stevenlow-rate-adaptation"
+        ],
+        "scope": "step",
+        "notes": "The hardest single jump in the tree. Opening the hips flattens the back and roughly doubles the effective lever; a stall of 2–3 months here is normal rather than a sign of bad programming."
+      }
     },
     {
       "cues": [
@@ -419,17 +578,47 @@
           "title": "Planche shapes — demo clip",
           "channel": "Andry Strong",
           "start_seconds": 60,
-          "end_seconds": 90
+          "end_seconds": 90,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=LgPG0MZPI84",
+          "attribution": "Andry Strong — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "cali-gif",
           "url": "assets/gifs/straddle-planche.gif",
           "title": "Demo GIF · straddle planche (AI)",
           "channel": "anatome.dev · AI demo",
+          "file": "straddle-planche.gif",
+          "role": "demo",
+          "license": "Apache-2.0",
+          "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+          "source_url": "https://github.com/Rippy1911/base44/blob/main/_content/calisthenics/site/assets/gifs/straddle-planche.gif",
+          "attribution": "AI-generated demonstration (straddle-planche.gif) produced with fal-ai/flux/schnell. The FLUX.1 [schnell] model is released under Apache-2.0. Generated for NextSolutions; illustrative of the shape, not a recording of a real athlete.",
           "ai_generated": true,
-          "file": "straddle-planche.gif"
+          "redistributable": true,
+          "tier": "ai-generated",
+          "generator": "fal-ai/flux/schnell",
+          "model": "FLUX.1 [schnell]"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 20,
+          "max": 48
+        },
+        "from_level": "30–45s advanced tuck planche",
+        "conditioning_hours_per_week": 4,
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "overcoming-gravity-2e"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -465,17 +654,50 @@
           "title": "Planche shapes — demo clip",
           "channel": "Andry Strong",
           "start_seconds": 60,
-          "end_seconds": 90
+          "end_seconds": 90,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=LgPG0MZPI84",
+          "attribution": "Andry Strong — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "cali-gif",
           "url": "assets/gifs/straddle-planche.gif",
           "title": "Demo GIF · straddle planche (AI)",
           "channel": "anatome.dev · AI demo",
+          "file": "straddle-planche.gif",
+          "role": "demo",
+          "license": "Apache-2.0",
+          "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+          "source_url": "https://github.com/Rippy1911/base44/blob/main/_content/calisthenics/site/assets/gifs/straddle-planche.gif",
+          "attribution": "AI-generated demonstration (straddle-planche.gif) produced with fal-ai/flux/schnell. The FLUX.1 [schnell] model is released under Apache-2.0. Generated for NextSolutions; illustrative of the shape, not a recording of a real athlete.",
           "ai_generated": true,
-          "file": "straddle-planche.gif"
+          "redistributable": true,
+          "tier": "ai-generated",
+          "generator": "fal-ai/flux/schnell",
+          "model": "FLUX.1 [schnell]"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 12,
+          "max": 30
+        },
+        "from_level": "15s straddle planche",
+        "conditioning_hours_per_week": 4,
+        "confidence": "estimated",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "stevenlow-rate-adaptation",
+          "straighttalking-cali-timelines"
+        ],
+        "scope": "step",
+        "notes": "An optional bridge for athletes whose straddle range limits them; athletes with a wide straddle often skip it entirely and go straight to full."
+      }
     },
     {
       "cues": [
@@ -524,17 +746,416 @@
           "title": "Planche shapes — demo clip",
           "channel": "Andry Strong",
           "start_seconds": 60,
-          "end_seconds": 90
+          "end_seconds": 90,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=LgPG0MZPI84",
+          "attribution": "Andry Strong — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "cali-gif",
           "url": "assets/gifs/full-planche.gif",
           "title": "Demo GIF · full planche (AI)",
           "channel": "anatome.dev · AI demo",
+          "file": "full-planche.gif",
+          "role": "demo",
+          "license": "Apache-2.0",
+          "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+          "source_url": "https://github.com/Rippy1911/base44/blob/main/_content/calisthenics/site/assets/gifs/full-planche.gif",
+          "attribution": "AI-generated demonstration (full-planche.gif) produced with fal-ai/flux/schnell. The FLUX.1 [schnell] model is released under Apache-2.0. Generated for NextSolutions; illustrative of the shape, not a recording of a real athlete.",
           "ai_generated": true,
-          "file": "full-planche.gif"
+          "redistributable": true,
+          "tier": "ai-generated",
+          "generator": "fal-ai/flux/schnell",
+          "model": "FLUX.1 [schnell]"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 24,
+          "max": 60
+        },
+        "from_level": "20–30s straddle planche",
+        "conditioning_hours_per_week": 4,
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "stevenlow-rate-adaptation"
+        ],
+        "scope": "step"
+      }
     }
-  ]
+  ],
+  "timeline": {
+    "typical_weeks": {
+      "min": 91,
+      "max": 214
+    },
+    "from_level": "30s frog stand, 15–20 pseudo planche push-ups with ≥30° lean, 30s wall plank, 30s tuck L-sit, pain-free loaded wrist extension",
+    "conditioning_hours_per_week": 4,
+    "confidence": "coach-consensus",
+    "source_ids": [
+      "overcoming-gravity-2e",
+      "stevenlow-rate-adaptation",
+      "straighttalking-cali-timelines"
+    ],
+    "human_label": "roughly 2–4 years from the planche entry assessment, or 3–6 years from a first solid push-up base once the foundations tree is included",
+    "notes": "OG2 places the full planche near the top of the straight-arm push chart, above the straddle planche that defines its 'intermediate-to-advanced' band, and Steven Low's rate-of-adaptation model explains why the last two steps cost more than the first six combined. The advanced tuck is the single hardest jump in the tree: it is where the hips open and the lever roughly doubles.",
+    "scope": "tree_cumulative",
+    "variance_drivers": [
+      {
+        "factor": "bodyweight",
+        "direction": "slower",
+        "impact": "high",
+        "note": "Straight-arm and pulling skills scale roughly with bodyweight at a fixed height. Athletes above ~85 kg routinely sit at the top of every band; lighter athletes at the bottom. This is the single largest driver on lever and planche trees."
+      },
+      {
+        "factor": "training_age",
+        "direction": "faster",
+        "impact": "high",
+        "note": "Rate of adaptation is logarithmic. An athlete with 3+ years of consistent resistance training moves through early steps in a fraction of the listed time but gains little advantage on the last two steps of any tree."
+      },
+      {
+        "factor": "chronological_age",
+        "direction": "slower",
+        "impact": "moderate",
+        "note": "Connective tissue remodels more slowly with age. Athletes over ~40 should read the upper half of every band and extend tendon-conditioning steps rather than compressing them."
+      },
+      {
+        "factor": "limb_length",
+        "direction": "slower",
+        "impact": "moderate",
+        "note": "Longer arms and legs lengthen the lever at a fixed bodyweight. Taller athletes commonly need one extra intermediate shape (one-leg before straddle) that shorter athletes can skip."
+      },
+      {
+        "factor": "session_frequency",
+        "direction": "faster",
+        "impact": "high",
+        "note": "Below roughly 2 quality sessions per week most athletes stall indefinitely on advanced steps. Gains from going beyond 4–5 sessions per week are small and injury risk rises (arampatzis-2024-loading)."
+      },
+      {
+        "factor": "coaching_and_feedback",
+        "direction": "faster",
+        "impact": "moderate",
+        "note": "Video review or a coach correcting shape is repeatedly reported to roughly halve time-to-skill on balance-dominant work versus unguided practice (kyleweiger-handstand)."
+      },
+      {
+        "factor": "wrist_and_bicep_tendon_tolerance",
+        "direction": "slower",
+        "impact": "high",
+        "note": "Straight-arm loading at a long lever is the highest tendon-stress position in the library. Athletes who reach the straddle without conditioning the biceps tendon frequently lose 8–12 weeks to tendinopathy — longer than the conditioning would have taken (bohm-2015-tendon)."
+      }
+    ]
+  },
+  "progression_patterns": {
+    "prerequisite_standards": [
+      {
+        "name": "Frog stand / crow",
+        "target": "30s clean hold",
+        "metric": "hold_seconds",
+        "value": 30,
+        "related_step_id": "frog-stand",
+        "rationale": "Straight-arm balance and wrist confidence.",
+        "source_ids": [
+          "overcoming-gravity-2e"
+        ]
+      },
+      {
+        "name": "Pseudo planche push-ups",
+        "target": "15–20 reps at ≥30° lean",
+        "metric": "reps",
+        "value": 15,
+        "related_step_id": "push-pppu",
+        "rationale": "The lean, not the push-up count, is what carries over.",
+        "source_ids": [
+          "overcoming-gravity-2e"
+        ]
+      },
+      {
+        "name": "Tuck L-sit",
+        "target": "30s",
+        "metric": "hold_seconds",
+        "value": 30,
+        "related_step_id": "lsit-tuck",
+        "rationale": "Compression and hip-flexor strength to hold the tuck shapes.",
+        "source_ids": [
+          "rbwf-recommended-routine"
+        ]
+      },
+      {
+        "name": "Loaded wrist extension",
+        "target": "pain-free at ≥90°",
+        "metric": "custom",
+        "related_step_id": "mob-wrist-load",
+        "rationale": "Straight-arm pushing at a long lever is the highest wrist-load position in the library.",
+        "source_ids": [
+          "bohm-2015-tendon"
+        ]
+      },
+      {
+        "name": "Wall plank (chest-to-wall)",
+        "target": "30s",
+        "metric": "hold_seconds",
+        "value": 30,
+        "related_step_id": "wall-plank",
+        "rationale": "Protraction endurance under inverted load.",
+        "source_ids": [
+          "overcoming-gravity-2e"
+        ]
+      }
+    ],
+    "plateau_signatures": [
+      {
+        "id": "advanced-tuck-wall",
+        "at_step_ids": [
+          "advanced-tuck-planche"
+        ],
+        "signal": "Solid 60s tuck planche but the advanced tuck collapses in under 10s for months",
+        "typical_causes": [
+          "Opening the hips roughly doubles the lever — the single hardest jump in the tree",
+          "Calling a rounded tuck an advanced tuck",
+          "Trying to progress by hold time rather than by shape"
+        ],
+        "resolution": [
+          "Use a band under the hips to accumulate time in the true flat-back shape",
+          "Film from the side every session and score back angle, not seconds",
+          "Expect 4–9 months here and programme accordingly rather than treating it as failure"
+        ],
+        "expected_stall_weeks": {
+          "min": 12,
+          "max": 36
+        },
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "stevenlow-rate-adaptation"
+        ]
+      },
+      {
+        "id": "lean-not-earned",
+        "at_step_ids": [
+          "tuck-planche",
+          "tuck-planche-parallettes"
+        ],
+        "signal": "Tuck holds stay short and the shoulders never get in front of the hands",
+        "typical_causes": [
+          "Insufficient planche lean base — the lean angle is the actual currency of this tree",
+          "Elbows bending imperceptibly under load"
+        ],
+        "resolution": [
+          "Go back and earn a 60s lean at 45°",
+          "Film to confirm the elbows stay locked",
+          "Add pseudo planche push-up volume with an exaggerated lean"
+        ],
+        "expected_stall_weeks": {
+          "min": 4,
+          "max": 12
+        },
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "overcoming-gravity-2e"
+        ]
+      },
+      {
+        "id": "straddle-mobility-limited",
+        "at_step_ids": [
+          "straddle-planche",
+          "one-leg-planche"
+        ],
+        "signal": "Strong enough for the straddle but cannot open the legs wide enough to shorten the lever",
+        "typical_causes": [
+          "Straddle range limited by hip structure or pancake flexibility"
+        ],
+        "resolution": [
+          "Route via one-leg planche instead",
+          "Add pancake work in parallel — it directly shortens the lever you have to hold"
+        ],
+        "expected_stall_weeks": {
+          "min": 8,
+          "max": 24
+        },
+        "confidence": "estimated",
+        "source_ids": [
+          "overcoming-gravity-2e"
+        ]
+      }
+    ],
+    "regression_triggers": [
+      {
+        "id": "layoff-under-4-weeks",
+        "trigger": "Layoff or markedly reduced training for less than 4 weeks (illness, travel, work crunch)",
+        "typical_dropback": "No step lost. Hold times commonly return 10–25% short for the first two sessions; eccentric control and shape quality degrade before maximal strength does.",
+        "recovery_weeks": {
+          "min": 1,
+          "max": 2
+        },
+        "action": "Resume one step below your unlock for two sessions, then retest. Do not re-earn the whole step — strength-trained athletes show only limited decline at this timescale.",
+        "confidence": "published-standard",
+        "source_ids": [
+          "mujika-2000-detraining-1"
+        ]
+      },
+      {
+        "id": "layoff-8-12-weeks",
+        "trigger": "Complete training stoppage for 8–12 weeks",
+        "typical_dropback": "Force production falls roughly 7–12%, which usually costs one step on hold-based progressions and one to two steps on the hardest dynamic ones. Recently acquired gains are retained far better than the loss in maximal force suggests.",
+        "recovery_weeks": {
+          "min": 3,
+          "max": 8
+        },
+        "action": "Restart two steps below your previous unlock and rebuild with full volume but reduced intensity. Expect to regain the lost steps in a fraction of the time they originally took.",
+        "confidence": "published-standard",
+        "source_ids": [
+          "mujika-2000-detraining-2"
+        ]
+      },
+      {
+        "id": "deload-week",
+        "trigger": "Planned deload, or four consecutive weeks with no measurable progress",
+        "typical_dropback": "None. Hold times often improve in the week after the deload.",
+        "recovery_weeks": {
+          "min": 0,
+          "max": 1
+        },
+        "action": "Cut volume roughly in half and keep intensity, for one week. Overcoming Gravity's rule is that four weeks without progress means the cycle is finished, not that you need to try harder.",
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "overcoming-gravity-2e"
+        ]
+      },
+      {
+        "id": "tendon-irritation-layoff",
+        "trigger": "Tendon pain forcing modified or stopped training",
+        "typical_dropback": "Highly variable. Time lost is usually 6–12 weeks because the tissue must be reloaded from a low baseline, and the affected step is typically lost entirely.",
+        "recovery_weeks": {
+          "min": 6,
+          "max": 16
+        },
+        "action": "Drop to the last pain-free step, reintroduce isometric then slow eccentric loading, and rebuild across at least 8–12 weeks — the window in which tendon stiffness actually changes. Returning at the previous intensity is the most common cause of recurrence.",
+        "confidence": "published-standard",
+        "source_ids": [
+          "bohm-2015-tendon",
+          "mujika-2000-detraining-2"
+        ]
+      }
+    ],
+    "injury_risk_timeline": [
+      {
+        "tissue": "wrist",
+        "peaks_at_step_ids": [
+          "planche-lean",
+          "tuck-planche",
+          "advanced-tuck-planche"
+        ],
+        "mechanism": "Bodyweight driven through an extended wrist with the centre of mass ahead of the hands — the load rises with lean angle, which is exactly what this tree trains",
+        "onset_weeks_from_entry": {
+          "min": 2,
+          "max": 14
+        },
+        "prophylaxis": [
+          "Complete an 8-week loaded wrist block before high-volume lean work",
+          "Move to parallettes from the tuck onward",
+          "Cap total wrist-loaded minutes per session"
+        ],
+        "red_flags": [
+          "Dorsal wrist pinching during leans",
+          "Wrist ache the morning after"
+        ],
+        "confidence": "published-standard",
+        "source_ids": [
+          "bohm-2015-tendon"
+        ]
+      },
+      {
+        "tissue": "biceps-tendon",
+        "peaks_at_step_ids": [
+          "straddle-planche",
+          "one-leg-planche",
+          "full-planche"
+        ],
+        "mechanism": "Straight-arm loading at maximal lever length puts high tensile stress on the long head of the biceps, arriving at the exact point in the tree where athletes push hardest",
+        "onset_weeks_from_entry": {
+          "min": 40,
+          "max": 120
+        },
+        "prophylaxis": [
+          "Keep dragon leans and supine hangs in the programme as permanent tendon conditioning",
+          "Add one shape change at a time and hold it at least 4–6 weeks",
+          "Accept that tissue adapts on a 8–12 week clock regardless of how strong the muscles feel"
+        ],
+        "red_flags": [
+          "Pain in the biceps groove during or after holds",
+          "Pain on resisted elbow flexion"
+        ],
+        "confidence": "published-standard",
+        "source_ids": [
+          "bohm-2015-tendon",
+          "arampatzis-2024-loading"
+        ]
+      },
+      {
+        "tissue": "shoulder",
+        "peaks_at_step_ids": [
+          "advanced-tuck-planche",
+          "full-planche"
+        ],
+        "mechanism": "Sustained maximal protraction with the humerus loaded in front of the torso",
+        "onset_weeks_from_entry": {
+          "min": 24,
+          "max": 90
+        },
+        "prophylaxis": [
+          "Pair every planche block with front lever work to balance the shoulder",
+          "Do not train to failure — Overcoming Gravity is explicit about this for straight-arm work"
+        ],
+        "red_flags": [
+          "Front-of-shoulder ache",
+          "Reduced protraction range between sessions"
+        ],
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "overcoming-gravity-2e"
+        ]
+      }
+    ],
+    "volume_patterns": {
+      "productive": {
+        "sessions_per_week": {
+          "min": 3,
+          "max": 4
+        },
+        "hard_sets_per_session": {
+          "min": 4,
+          "max": 6
+        },
+        "notes": "Never to failure. Short, high-quality holds with 3–5 minutes of rest beat long ugly ones. Light daily leans are fine and are the exception to the frequency cap.",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "arampatzis-2024-loading"
+        ]
+      },
+      "too_much_signals": [
+        "Wrist or biceps discomfort persisting between sessions",
+        "Lean angle decreasing week over week at the same hold time",
+        "Elbows starting to bend on sets that used to be clean",
+        "Needing progressively more warm-up sets to reach the working lean"
+      ],
+      "deload": {
+        "every_weeks": {
+          "min": 4,
+          "max": 6
+        },
+        "protocol": "One week of leans and tuck holds only, at half the usual sets, keeping the lean angle.",
+        "trigger": "Four weeks without progress, or any wrist or biceps symptom carrying between sessions.",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "bohm-2015-tendon"
+        ]
+      }
+    }
+  }
 }

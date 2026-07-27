@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "kind": "foundations",
   "slug": "foundations",
   "name": "Foundations",
@@ -111,16 +111,46 @@
           "title": "Push-up progression — demo clip",
           "channel": "FitnessFAQs",
           "start_seconds": 40,
-          "end_seconds": 70
+          "end_seconds": 70,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=H0k47Ghb0GY",
+          "attribution": "FitnessFAQs — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Pushups",
           "title": "Form GIF · Pushups",
           "channel": "anatome.dev",
-          "ext_id": "Pushups"
+          "ext_id": "Pushups",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Pushups.json",
+          "attribution": "free-exercise-db (Pushups), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 2,
+          "max": 4
+        },
+        "from_level": "no structured pushing work",
+        "conditioning_hours_per_week": 3,
+        "confidence": "published-standard",
+        "source_ids": [
+          "acsm-progression-2009"
+        ],
+        "scope": "step",
+        "notes": "Sits inside the 4–8 week window in which ACSM reports the majority of novice strength gain."
+      }
     },
     {
       "cues": [
@@ -155,16 +185,45 @@
           "title": "Push-up progression — demo clip",
           "channel": "FitnessFAQs",
           "start_seconds": 40,
-          "end_seconds": 70
+          "end_seconds": 70,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=H0k47Ghb0GY",
+          "attribution": "FitnessFAQs — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Pushups",
           "title": "Form GIF · Pushups",
           "channel": "anatome.dev",
-          "ext_id": "Pushups"
+          "ext_id": "Pushups",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Pushups.json",
+          "attribution": "free-exercise-db (Pushups), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 2,
+          "max": 4
+        },
+        "from_level": "12 incline push-ups",
+        "conditioning_hours_per_week": 3,
+        "confidence": "published-standard",
+        "source_ids": [
+          "acsm-progression-2009"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -203,16 +262,47 @@
           "title": "Push-up progression — demo clip",
           "channel": "FitnessFAQs",
           "start_seconds": 40,
-          "end_seconds": 70
+          "end_seconds": 70,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=H0k47Ghb0GY",
+          "attribution": "FitnessFAQs — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Pushups",
           "title": "Form GIF · Pushups",
           "channel": "anatome.dev",
-          "ext_id": "Pushups"
+          "ext_id": "Pushups",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Pushups.json",
+          "attribution": "free-exercise-db (Pushups), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 4,
+          "max": 8
+        },
+        "from_level": "12 knee push-ups",
+        "conditioning_hours_per_week": 3,
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "rbwf-recommended-routine",
+          "acsm-progression-2009"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -248,16 +338,47 @@
           "title": "Push-up progression — demo clip",
           "channel": "FitnessFAQs",
           "start_seconds": 40,
-          "end_seconds": 70
+          "end_seconds": 70,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=H0k47Ghb0GY",
+          "attribution": "FitnessFAQs — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Pushups",
           "title": "Form GIF · Pushups",
           "channel": "anatome.dev",
-          "ext_id": "Pushups"
+          "ext_id": "Pushups",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Pushups.json",
+          "attribution": "free-exercise-db (Pushups), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 4,
+          "max": 8
+        },
+        "from_level": "15 strict push-ups",
+        "conditioning_hours_per_week": 3,
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "rbwf-recommended-routine",
+          "acsm-progression-2009"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -292,16 +413,47 @@
           "title": "Push-up progression — demo clip",
           "channel": "FitnessFAQs",
           "start_seconds": 40,
-          "end_seconds": 70
+          "end_seconds": 70,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=H0k47Ghb0GY",
+          "attribution": "FitnessFAQs — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Pushups",
           "title": "Form GIF · Pushups",
           "channel": "anatome.dev",
-          "ext_id": "Pushups"
+          "ext_id": "Pushups",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Pushups.json",
+          "attribution": "free-exercise-db (Pushups), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 8,
+          "max": 16
+        },
+        "from_level": "12 diamond push-ups",
+        "conditioning_hours_per_week": 3,
+        "confidence": "estimated",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "rbwf-recommended-routine",
+          "acsm-progression-2009"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -339,16 +491,47 @@
           "title": "Pseudo Planche Done RIGHT — demo clip",
           "channel": "FitnessFAQs",
           "start_seconds": 45,
-          "end_seconds": 70
+          "end_seconds": 70,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=odcPqBOlJhI",
+          "attribution": "FitnessFAQs — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Pushups",
           "title": "Form GIF · Pushups",
           "channel": "anatome.dev",
-          "ext_id": "Pushups"
+          "ext_id": "Pushups",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Pushups.json",
+          "attribution": "free-exercise-db (Pushups), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 8,
+          "max": 16
+        },
+        "from_level": "8 archer push-ups per side",
+        "conditioning_hours_per_week": 3,
+        "confidence": "estimated",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "rbwf-recommended-routine",
+          "acsm-progression-2009"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -384,16 +567,45 @@
           "title": "Dip tutorial — demo clip",
           "channel": "FitnessFAQs",
           "start_seconds": 35,
-          "end_seconds": 65
+          "end_seconds": 65,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=l41SoWZiowI",
+          "attribution": "FitnessFAQs — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Dips_-_Triceps_Version",
           "title": "Form GIF · Dips - Triceps Version",
           "channel": "anatome.dev",
-          "ext_id": "Dips_-_Triceps_Version"
+          "ext_id": "Dips_-_Triceps_Version",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Dips_-_Triceps_Version.json",
+          "attribution": "free-exercise-db (Dips_-_Triceps_Version), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 2,
+          "max": 4
+        },
+        "from_level": "no structured dip work",
+        "conditioning_hours_per_week": 3,
+        "confidence": "published-standard",
+        "source_ids": [
+          "acsm-progression-2009"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -429,16 +641,47 @@
           "title": "Dip tutorial — demo clip",
           "channel": "FitnessFAQs",
           "start_seconds": 35,
-          "end_seconds": 65
+          "end_seconds": 65,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=l41SoWZiowI",
+          "attribution": "FitnessFAQs — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Dips_-_Triceps_Version",
           "title": "Form GIF · Dips - Triceps Version",
           "channel": "anatome.dev",
-          "ext_id": "Dips_-_Triceps_Version"
+          "ext_id": "Dips_-_Triceps_Version",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Dips_-_Triceps_Version.json",
+          "attribution": "free-exercise-db (Dips_-_Triceps_Version), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 2,
+          "max": 3
+        },
+        "from_level": "12 bench dips",
+        "conditioning_hours_per_week": 3,
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "rbwf-recommended-routine",
+          "acsm-progression-2009"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -473,16 +716,47 @@
           "title": "Dip tutorial — demo clip",
           "channel": "FitnessFAQs",
           "start_seconds": 35,
-          "end_seconds": 65
+          "end_seconds": 65,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=l41SoWZiowI",
+          "attribution": "FitnessFAQs — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Dips_-_Triceps_Version",
           "title": "Form GIF · Dips - Triceps Version",
           "channel": "anatome.dev",
-          "ext_id": "Dips_-_Triceps_Version"
+          "ext_id": "Dips_-_Triceps_Version",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Dips_-_Triceps_Version.json",
+          "attribution": "free-exercise-db (Dips_-_Triceps_Version), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 3,
+          "max": 6
+        },
+        "from_level": "30s bar support hold",
+        "conditioning_hours_per_week": 3,
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "rbwf-recommended-routine",
+          "acsm-progression-2009"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -518,16 +792,47 @@
           "title": "Dip tutorial — demo clip",
           "channel": "FitnessFAQs",
           "start_seconds": 35,
-          "end_seconds": 65
+          "end_seconds": 65,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=l41SoWZiowI",
+          "attribution": "FitnessFAQs — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Dips_-_Triceps_Version",
           "title": "Form GIF · Dips - Triceps Version",
           "channel": "anatome.dev",
-          "ext_id": "Dips_-_Triceps_Version"
+          "ext_id": "Dips_-_Triceps_Version",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Dips_-_Triceps_Version.json",
+          "attribution": "free-exercise-db (Dips_-_Triceps_Version), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 4,
+          "max": 8
+        },
+        "from_level": "5 controlled negative dips",
+        "conditioning_hours_per_week": 3,
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "rbwf-recommended-routine",
+          "acsm-progression-2009"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -562,16 +867,47 @@
           "title": "Dip tutorial — demo clip",
           "channel": "FitnessFAQs",
           "start_seconds": 35,
-          "end_seconds": 65
+          "end_seconds": 65,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=l41SoWZiowI",
+          "attribution": "FitnessFAQs — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Dips_-_Triceps_Version",
           "title": "Form GIF · Dips - Triceps Version",
           "channel": "anatome.dev",
-          "ext_id": "Dips_-_Triceps_Version"
+          "ext_id": "Dips_-_Triceps_Version",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Dips_-_Triceps_Version.json",
+          "attribution": "free-exercise-db (Dips_-_Triceps_Version), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 8,
+          "max": 16
+        },
+        "from_level": "10 strict parallel-bar dips",
+        "conditioning_hours_per_week": 3,
+        "confidence": "estimated",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "rbwf-recommended-routine",
+          "acsm-progression-2009"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -607,16 +943,47 @@
           "title": "Dip tutorial — demo clip",
           "channel": "FitnessFAQs",
           "start_seconds": 35,
-          "end_seconds": 65
+          "end_seconds": 65,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=l41SoWZiowI",
+          "attribution": "FitnessFAQs — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Dips_-_Triceps_Version",
           "title": "Form GIF · Dips - Triceps Version",
           "channel": "anatome.dev",
-          "ext_id": "Dips_-_Triceps_Version"
+          "ext_id": "Dips_-_Triceps_Version",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Dips_-_Triceps_Version.json",
+          "attribution": "free-exercise-db (Dips_-_Triceps_Version), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 6,
+          "max": 12
+        },
+        "from_level": "8 ring dips",
+        "conditioning_hours_per_week": 3,
+        "confidence": "estimated",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "rbwf-recommended-routine",
+          "acsm-progression-2009"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -652,16 +1019,47 @@
           "title": "Scapular pull-ups — demo clip",
           "channel": "Zack Henderson",
           "start_seconds": 25,
-          "end_seconds": 55
+          "end_seconds": 55,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=-ZIpSoTRsuE",
+          "attribution": "Zack Henderson — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Scapular_Pull-Up",
           "title": "Form GIF · Scapular Pull-Up",
           "channel": "anatome.dev",
-          "ext_id": "Scapular_Pull-Up"
+          "ext_id": "Scapular_Pull-Up",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Scapular_Pull-Up.json",
+          "attribution": "free-exercise-db (Scapular_Pull-Up), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 2,
+          "max": 4
+        },
+        "from_level": "no structured hanging work",
+        "conditioning_hours_per_week": 3,
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "rbwf-recommended-routine",
+          "acsm-progression-2009"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -697,16 +1095,47 @@
           "title": "Pull-up form — demo clip",
           "channel": "FitnessFAQs",
           "start_seconds": 40,
-          "end_seconds": 70
+          "end_seconds": 70,
+          "role": "reference",
+          "match_note": "Related clip from the same movement family, not a demonstration of Australian / inverted row. title names [pull-up] but step covers [row].",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=MhokcbRLP5w",
+          "attribution": "FitnessFAQs — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Pullups",
           "title": "Form GIF · Pullups",
           "channel": "anatome.dev",
-          "ext_id": "Pullups"
+          "ext_id": "Pullups",
+          "role": "reference",
+          "match_note": "Related clip from the same movement family, not a demonstration of Australian / inverted row. title names [pull-up] but step covers [row].",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Pullups.json",
+          "attribution": "free-exercise-db (Pullups), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 3,
+          "max": 6
+        },
+        "from_level": "30s dead hang, 8 scapular pull-ups",
+        "conditioning_hours_per_week": 3,
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "rbwf-recommended-routine"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -742,16 +1171,45 @@
           "title": "Pull-up form — demo clip",
           "channel": "FitnessFAQs",
           "start_seconds": 40,
-          "end_seconds": 70
+          "end_seconds": 70,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=MhokcbRLP5w",
+          "attribution": "FitnessFAQs — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Pullups",
           "title": "Form GIF · Pullups",
           "channel": "anatome.dev",
-          "ext_id": "Pullups"
+          "ext_id": "Pullups",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Pullups.json",
+          "attribution": "free-exercise-db (Pullups), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 4,
+          "max": 8
+        },
+        "from_level": "12 horizontal rows",
+        "conditioning_hours_per_week": 3,
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "rbwf-recommended-routine"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -787,16 +1245,47 @@
           "title": "Pull-up form — demo clip",
           "channel": "FitnessFAQs",
           "start_seconds": 40,
-          "end_seconds": 70
+          "end_seconds": 70,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=MhokcbRLP5w",
+          "attribution": "FitnessFAQs — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Pullups",
           "title": "Form GIF · Pullups",
           "channel": "anatome.dev",
-          "ext_id": "Pullups"
+          "ext_id": "Pullups",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Pullups.json",
+          "attribution": "free-exercise-db (Pullups), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 4,
+          "max": 8
+        },
+        "from_level": "5 slow negative pull-ups",
+        "conditioning_hours_per_week": 3,
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "rbwf-recommended-routine",
+          "acsm-progression-2009"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -835,16 +1324,47 @@
           "title": "Pull-up form — demo clip",
           "channel": "FitnessFAQs",
           "start_seconds": 40,
-          "end_seconds": 70
+          "end_seconds": 70,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=MhokcbRLP5w",
+          "attribution": "FitnessFAQs — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Pullups",
           "title": "Form GIF · Pullups",
           "channel": "anatome.dev",
-          "ext_id": "Pullups"
+          "ext_id": "Pullups",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Pullups.json",
+          "attribution": "free-exercise-db (Pullups), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 4,
+          "max": 8
+        },
+        "from_level": "8 chin-ups",
+        "conditioning_hours_per_week": 3,
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "rbwf-recommended-routine",
+          "acsm-progression-2009"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -879,16 +1399,47 @@
           "title": "Pull-up form — demo clip",
           "channel": "FitnessFAQs",
           "start_seconds": 40,
-          "end_seconds": 70
+          "end_seconds": 70,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=MhokcbRLP5w",
+          "attribution": "FitnessFAQs — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Pullups",
           "title": "Form GIF · Pullups",
           "channel": "anatome.dev",
-          "ext_id": "Pullups"
+          "ext_id": "Pullups",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Pullups.json",
+          "attribution": "free-exercise-db (Pullups), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 8,
+          "max": 16
+        },
+        "from_level": "8 strict pronated pull-ups",
+        "conditioning_hours_per_week": 3,
+        "confidence": "estimated",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "rbwf-recommended-routine",
+          "acsm-progression-2009"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -924,16 +1475,47 @@
           "title": "Hollow-body hold — short tutorial (~25s clip)",
           "channel": "BJ Gaddour",
           "start_seconds": 5,
-          "end_seconds": 30
+          "end_seconds": 30,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=skVSiMgOhc0",
+          "attribution": "BJ Gaddour — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Plank",
           "title": "Form GIF · Plank",
           "channel": "anatome.dev",
-          "ext_id": "Plank"
+          "ext_id": "Plank",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Plank.json",
+          "attribution": "free-exercise-db (Plank), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 1,
+          "max": 3
+        },
+        "from_level": "no structured core work",
+        "conditioning_hours_per_week": 3,
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "rbwf-recommended-routine",
+          "acsm-progression-2009"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -969,16 +1551,45 @@
           "title": "Hollow-body hold — short tutorial (~25s clip)",
           "channel": "BJ Gaddour",
           "start_seconds": 5,
-          "end_seconds": 30
+          "end_seconds": 30,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=skVSiMgOhc0",
+          "attribution": "BJ Gaddour — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Plank",
           "title": "Form GIF · Plank",
           "channel": "anatome.dev",
-          "ext_id": "Plank"
+          "ext_id": "Plank",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Plank.json",
+          "attribution": "free-exercise-db (Plank), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 2,
+          "max": 4
+        },
+        "from_level": "clean dead bug, no lumbar gap",
+        "conditioning_hours_per_week": 3,
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "rbwf-recommended-routine"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -1015,16 +1626,45 @@
           "title": "Hollow-body hold — short tutorial (~25s clip)",
           "channel": "BJ Gaddour",
           "start_seconds": 5,
-          "end_seconds": 30
+          "end_seconds": 30,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=skVSiMgOhc0",
+          "attribution": "BJ Gaddour — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Plank",
           "title": "Form GIF · Plank",
           "channel": "anatome.dev",
-          "ext_id": "Plank"
+          "ext_id": "Plank",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Plank.json",
+          "attribution": "free-exercise-db (Plank), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 3,
+          "max": 6
+        },
+        "from_level": "30s tuck hollow",
+        "conditioning_hours_per_week": 3,
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "rbwf-recommended-routine"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -1060,16 +1700,47 @@
           "title": "Hollow-body hold — short tutorial (~25s clip)",
           "channel": "BJ Gaddour",
           "start_seconds": 5,
-          "end_seconds": 30
+          "end_seconds": 30,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=skVSiMgOhc0",
+          "attribution": "BJ Gaddour — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Plank",
           "title": "Form GIF · Plank",
           "channel": "anatome.dev",
-          "ext_id": "Plank"
+          "ext_id": "Plank",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Plank.json",
+          "attribution": "free-exercise-db (Plank), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 3,
+          "max": 6
+        },
+        "from_level": "30s extended hollow",
+        "conditioning_hours_per_week": 3,
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "rbwf-recommended-routine",
+          "acsm-progression-2009"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -1104,16 +1775,47 @@
           "title": "Hollow body progression — demo clip",
           "channel": "GMB Fitness (Praxis)",
           "start_seconds": 20,
-          "end_seconds": 50
+          "end_seconds": 50,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=LlDNef_Ztsc",
+          "attribution": "GMB Fitness (Praxis) — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Plank",
           "title": "Form GIF · Plank",
           "channel": "anatome.dev",
-          "ext_id": "Plank"
+          "ext_id": "Plank",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Plank.json",
+          "attribution": "free-exercise-db (Plank), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 4,
+          "max": 8
+        },
+        "from_level": "30 clean hollow rocks",
+        "conditioning_hours_per_week": 3,
+        "confidence": "estimated",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "rbwf-recommended-routine",
+          "acsm-progression-2009"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -1149,16 +1851,47 @@
           "title": "Scapular pull-ups — demo clip",
           "channel": "Zack Henderson",
           "start_seconds": 25,
-          "end_seconds": 55
+          "end_seconds": 55,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=-ZIpSoTRsuE",
+          "attribution": "Zack Henderson — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Scapular_Pull-Up",
           "title": "Form GIF · Scapular Pull-Up",
           "channel": "anatome.dev",
-          "ext_id": "Scapular_Pull-Up"
+          "ext_id": "Scapular_Pull-Up",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Scapular_Pull-Up.json",
+          "attribution": "free-exercise-db (Scapular_Pull-Up), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 2,
+          "max": 3
+        },
+        "from_level": "30s dead hang",
+        "conditioning_hours_per_week": 3,
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "rbwf-recommended-routine",
+          "acsm-progression-2009"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -1194,16 +1927,47 @@
           "title": "Scapular pull-ups — demo clip",
           "channel": "Zack Henderson",
           "start_seconds": 25,
-          "end_seconds": 55
+          "end_seconds": 55,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=-ZIpSoTRsuE",
+          "attribution": "Zack Henderson — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Scapular_Pull-Up",
           "title": "Form GIF · Scapular Pull-Up",
           "channel": "anatome.dev",
-          "ext_id": "Scapular_Pull-Up"
+          "ext_id": "Scapular_Pull-Up",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Scapular_Pull-Up.json",
+          "attribution": "free-exercise-db (Scapular_Pull-Up), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 2,
+          "max": 3
+        },
+        "from_level": "10 strict push-ups",
+        "conditioning_hours_per_week": 3,
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "rbwf-recommended-routine",
+          "acsm-progression-2009"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -1238,16 +2002,47 @@
           "title": "Dip tutorial — demo clip",
           "channel": "FitnessFAQs",
           "start_seconds": 35,
-          "end_seconds": 65
+          "end_seconds": 65,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=l41SoWZiowI",
+          "attribution": "FitnessFAQs — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Dips_-_Triceps_Version",
           "title": "Form GIF · Dips - Triceps Version",
           "channel": "anatome.dev",
-          "ext_id": "Dips_-_Triceps_Version"
+          "ext_id": "Dips_-_Triceps_Version",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Dips_-_Triceps_Version.json",
+          "attribution": "free-exercise-db (Dips_-_Triceps_Version), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 2,
+          "max": 4
+        },
+        "from_level": "30s bar support hold",
+        "conditioning_hours_per_week": 3,
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "rbwf-recommended-routine",
+          "acsm-progression-2009"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -1282,16 +2077,47 @@
           "title": "Scapular pull-ups — demo clip",
           "channel": "Zack Henderson",
           "start_seconds": 25,
-          "end_seconds": 55
+          "end_seconds": 55,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=-ZIpSoTRsuE",
+          "attribution": "Zack Henderson — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Scapular_Pull-Up",
           "title": "Form GIF · Scapular Pull-Up",
           "channel": "anatome.dev",
-          "ext_id": "Scapular_Pull-Up"
+          "ext_id": "Scapular_Pull-Up",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Scapular_Pull-Up.json",
+          "attribution": "free-exercise-db (Scapular_Pull-Up), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 2,
+          "max": 4
+        },
+        "from_level": "10 scapular pull-ups",
+        "conditioning_hours_per_week": 3,
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "rbwf-recommended-routine",
+          "acsm-progression-2009"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -1326,16 +2152,47 @@
           "title": "Handstand progression — wall demo clip",
           "channel": "GMB Fitness (Praxis)",
           "start_seconds": 35,
-          "end_seconds": 65
+          "end_seconds": 65,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=d6_lcWtQDxw",
+          "attribution": "GMB Fitness (Praxis) — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Handstand_Push-Ups",
           "title": "Form GIF · Handstand Push-Ups",
           "channel": "anatome.dev",
-          "ext_id": "Handstand_Push-Ups"
+          "ext_id": "Handstand_Push-Ups",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Handstand_Push-Ups.json",
+          "attribution": "free-exercise-db (Handstand_Push-Ups), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 4,
+          "max": 8
+        },
+        "from_level": "30s chest-to-wall handstand",
+        "conditioning_hours_per_week": 3,
+        "confidence": "estimated",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "rbwf-recommended-routine",
+          "acsm-progression-2009"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -1371,16 +2228,45 @@
           "title": "L-sit holds — demo clip",
           "channel": "FitnessFAQs",
           "start_seconds": 30,
-          "end_seconds": 60
+          "end_seconds": 60,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=cu0fHp8HCDo",
+          "attribution": "FitnessFAQs — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Hanging_Pike",
           "title": "Form GIF · Hanging Pike",
           "channel": "anatome.dev",
-          "ext_id": "Hanging_Pike"
+          "ext_id": "Hanging_Pike",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Hanging_Pike.json",
+          "attribution": "free-exercise-db (Hanging_Pike), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 3,
+          "max": 6
+        },
+        "from_level": "30s extended hollow hold",
+        "conditioning_hours_per_week": 3,
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "rbwf-recommended-routine"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -1416,16 +2302,45 @@
           "title": "L-sit holds — demo clip",
           "channel": "FitnessFAQs",
           "start_seconds": 30,
-          "end_seconds": 60
+          "end_seconds": 60,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=cu0fHp8HCDo",
+          "attribution": "FitnessFAQs — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Hanging_Pike",
           "title": "Form GIF · Hanging Pike",
           "channel": "anatome.dev",
-          "ext_id": "Hanging_Pike"
+          "ext_id": "Hanging_Pike",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Hanging_Pike.json",
+          "attribution": "free-exercise-db (Hanging_Pike), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 3,
+          "max": 6
+        },
+        "from_level": "30s tuck L-sit",
+        "conditioning_hours_per_week": 3,
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "rbwf-recommended-routine"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -1463,16 +2378,47 @@
           "title": "L-sit holds — demo clip",
           "channel": "FitnessFAQs",
           "start_seconds": 30,
-          "end_seconds": 60
+          "end_seconds": 60,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=cu0fHp8HCDo",
+          "attribution": "FitnessFAQs — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Hanging_Pike",
           "title": "Form GIF · Hanging Pike",
           "channel": "anatome.dev",
-          "ext_id": "Hanging_Pike"
+          "ext_id": "Hanging_Pike",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Hanging_Pike.json",
+          "attribution": "free-exercise-db (Hanging_Pike), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 4,
+          "max": 8
+        },
+        "from_level": "20s one-leg L-sit each side",
+        "conditioning_hours_per_week": 3,
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "rbwf-recommended-routine",
+          "acsm-progression-2009"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -1507,16 +2453,47 @@
           "title": "L-sit holds — demo clip",
           "channel": "FitnessFAQs",
           "start_seconds": 30,
-          "end_seconds": 60
+          "end_seconds": 60,
+          "role": "demo",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=cu0fHp8HCDo",
+          "attribution": "FitnessFAQs — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Hanging_Pike",
           "title": "Form GIF · Hanging Pike",
           "channel": "anatome.dev",
-          "ext_id": "Hanging_Pike"
+          "ext_id": "Hanging_Pike",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Hanging_Pike.json",
+          "attribution": "free-exercise-db (Hanging_Pike), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 6,
+          "max": 12
+        },
+        "from_level": "20s floor L-sit",
+        "conditioning_hours_per_week": 3,
+        "confidence": "estimated",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "rbwf-recommended-routine",
+          "acsm-progression-2009"
+        ],
+        "scope": "step"
+      }
     },
     {
       "cues": [
@@ -1553,16 +2530,49 @@
           "title": "L-sit holds — demo clip",
           "channel": "FitnessFAQs",
           "start_seconds": 30,
-          "end_seconds": 60
+          "end_seconds": 60,
+          "role": "reference",
+          "match_note": "Related clip from the same movement family, not a demonstration of V-sit. title names [l-sit] but step covers [v-sit].",
+          "license": "youtube-standard",
+          "license_url": "https://www.youtube.com/static?template=terms",
+          "source_url": "https://www.youtube.com/watch?v=cu0fHp8HCDo",
+          "attribution": "FitnessFAQs — streamed via the YouTube embedded player under the YouTube Terms of Service. Not re-hosted, not redistributed, and not included in offline packs.",
+          "ai_generated": false,
+          "redistributable": false,
+          "tier": "embed"
         },
         {
           "provider": "anatome-gif",
           "url": "https://api.anatome.dev/exerciseGif?id=Hanging_Pike",
           "title": "Form GIF · Hanging Pike",
           "channel": "anatome.dev",
-          "ext_id": "Hanging_Pike"
+          "ext_id": "Hanging_Pike",
+          "role": "demo",
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source_url": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Hanging_Pike.json",
+          "attribution": "free-exercise-db (Hanging_Pike), dedicated to the public domain under CC0 1.0. Served through api.anatome.dev.",
+          "ai_generated": false,
+          "redistributable": true,
+          "tier": "cc0-db"
         }
-      ]
+      ],
+      "timeline": {
+        "typical_weeks": {
+          "min": 20,
+          "max": 40
+        },
+        "from_level": "20s ring L-sit plus a pike fold past 90°",
+        "conditioning_hours_per_week": 3,
+        "confidence": "estimated",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "rbwf-recommended-routine",
+          "acsm-progression-2009"
+        ],
+        "scope": "step",
+        "notes": "Hip-flexor strength is rarely the limiter here — hamstring and lower-back compression is. Athletes without a deep pike fold can spend the whole upper band without moving."
+      }
     }
   ],
   "mini_trees": [
@@ -1789,5 +2799,297 @@
         "lsit-v"
       ]
     }
-  ]
+  ],
+  "timeline": {
+    "typical_weeks": {
+      "min": 36,
+      "max": 72
+    },
+    "from_level": "Untrained but healthy: can perform an incline push-up and hang from a bar for a few seconds",
+    "conditioning_hours_per_week": 3,
+    "confidence": "coach-consensus",
+    "source_ids": [
+      "overcoming-gravity-2e",
+      "rbwf-recommended-routine",
+      "acsm-progression-2009"
+    ],
+    "human_label": "9–18 months to top out all six foundation tracks; a solid working base (standard push-up, pull-up, dip, hollow hold, L-sit) lands at roughly 4–8 months",
+    "notes": "The six tracks are trained in parallel, so the tree total is the longest single track (L-sit), not the sum of all steps. ACSM's position stand puts most early strength gain in the first 4–8 weeks, which is why the first two steps of every track are short and the advanced caps are long.",
+    "parallel_tracks": true,
+    "scope": "tree_cumulative",
+    "variance_drivers": [
+      {
+        "factor": "bodyweight",
+        "direction": "slower",
+        "impact": "high",
+        "note": "Straight-arm and pulling skills scale roughly with bodyweight at a fixed height. Athletes above ~85 kg routinely sit at the top of every band; lighter athletes at the bottom. This is the single largest driver on lever and planche trees."
+      },
+      {
+        "factor": "training_age",
+        "direction": "faster",
+        "impact": "high",
+        "note": "Rate of adaptation is logarithmic. An athlete with 3+ years of consistent resistance training moves through early steps in a fraction of the listed time but gains little advantage on the last two steps of any tree."
+      },
+      {
+        "factor": "chronological_age",
+        "direction": "slower",
+        "impact": "moderate",
+        "note": "Connective tissue remodels more slowly with age. Athletes over ~40 should read the upper half of every band and extend tendon-conditioning steps rather than compressing them."
+      },
+      {
+        "factor": "limb_length",
+        "direction": "slower",
+        "impact": "moderate",
+        "note": "Longer arms and legs lengthen the lever at a fixed bodyweight. Taller athletes commonly need one extra intermediate shape (one-leg before straddle) that shorter athletes can skip."
+      },
+      {
+        "factor": "session_frequency",
+        "direction": "faster",
+        "impact": "high",
+        "note": "Below roughly 2 quality sessions per week most athletes stall indefinitely on advanced steps. Gains from going beyond 4–5 sessions per week are small and injury risk rises (arampatzis-2024-loading)."
+      },
+      {
+        "factor": "coaching_and_feedback",
+        "direction": "faster",
+        "impact": "moderate",
+        "note": "Video review or a coach correcting shape is repeatedly reported to roughly halve time-to-skill on balance-dominant work versus unguided practice (kyleweiger-handstand)."
+      }
+    ]
+  },
+  "progression_patterns": {
+    "prerequisite_standards": [
+      {
+        "name": "Pain-free full-range shoulder and elbow movement",
+        "target": "no joint pain through overhead reach and full elbow extension",
+        "metric": "custom",
+        "rationale": "Everything downstream loads these joints at long levers.",
+        "source_ids": [
+          "overcoming-gravity-2e"
+        ]
+      },
+      {
+        "name": "Passive bar hang",
+        "target": "15s",
+        "metric": "hold_seconds",
+        "value": 15,
+        "related_step_id": "pull-hang-scap",
+        "rationale": "Grip is the entry gate for every pulling track.",
+        "source_ids": [
+          "rbwf-recommended-routine"
+        ]
+      },
+      {
+        "name": "Bodyweight squat to depth",
+        "target": "20 reps",
+        "metric": "reps",
+        "value": 20,
+        "rationale": "Baseline lower-body capacity before the single-leg trees.",
+        "source_ids": [
+          "rbwf-recommended-routine"
+        ]
+      }
+    ],
+    "plateau_signatures": [
+      {
+        "id": "rep-range-stuck",
+        "at_step_ids": [
+          "push-standard",
+          "pull-pronated",
+          "dip-bar"
+        ],
+        "signal": "Stuck at the same rep count for 3+ weeks while form is already clean",
+        "typical_causes": [
+          "Training too far from failure",
+          "Insufficient weekly volume",
+          "Progressing on reps alone rather than moving to the next variation"
+        ],
+        "resolution": [
+          "Add one set per session for two weeks",
+          "Move to the next progression for the first set, then finish at the current one",
+          "Check sleep and protein before adding more volume"
+        ],
+        "expected_stall_weeks": {
+          "min": 2,
+          "max": 6
+        },
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "rbwf-recommended-routine",
+          "acsm-progression-2009"
+        ]
+      },
+      {
+        "id": "novice-window-closing",
+        "at_step_ids": [
+          "push-diamond",
+          "pull-chin"
+        ],
+        "signal": "Progress that was weekly becomes monthly around month 3–6",
+        "typical_causes": [
+          "The novice adaptation window has closed — this is expected, not a programming error"
+        ],
+        "resolution": [
+          "Switch from session-to-session progression to weekly or block progression",
+          "Introduce a planned deload every 4–8 weeks"
+        ],
+        "expected_stall_weeks": {
+          "min": 3,
+          "max": 8
+        },
+        "confidence": "published-standard",
+        "source_ids": [
+          "acsm-progression-2009",
+          "stevenlow-rate-adaptation"
+        ]
+      }
+    ],
+    "regression_triggers": [
+      {
+        "id": "layoff-under-4-weeks",
+        "trigger": "Layoff or markedly reduced training for less than 4 weeks (illness, travel, work crunch)",
+        "typical_dropback": "No step lost. Hold times commonly return 10–25% short for the first two sessions; eccentric control and shape quality degrade before maximal strength does.",
+        "recovery_weeks": {
+          "min": 1,
+          "max": 2
+        },
+        "action": "Resume one step below your unlock for two sessions, then retest. Do not re-earn the whole step — strength-trained athletes show only limited decline at this timescale.",
+        "confidence": "published-standard",
+        "source_ids": [
+          "mujika-2000-detraining-1"
+        ]
+      },
+      {
+        "id": "layoff-8-12-weeks",
+        "trigger": "Complete training stoppage for 8–12 weeks",
+        "typical_dropback": "Force production falls roughly 7–12%, which usually costs one step on hold-based progressions and one to two steps on the hardest dynamic ones. Recently acquired gains are retained far better than the loss in maximal force suggests.",
+        "recovery_weeks": {
+          "min": 3,
+          "max": 8
+        },
+        "action": "Restart two steps below your previous unlock and rebuild with full volume but reduced intensity. Expect to regain the lost steps in a fraction of the time they originally took.",
+        "confidence": "published-standard",
+        "source_ids": [
+          "mujika-2000-detraining-2"
+        ]
+      },
+      {
+        "id": "deload-week",
+        "trigger": "Planned deload, or four consecutive weeks with no measurable progress",
+        "typical_dropback": "None. Hold times often improve in the week after the deload.",
+        "recovery_weeks": {
+          "min": 0,
+          "max": 1
+        },
+        "action": "Cut volume roughly in half and keep intensity, for one week. Overcoming Gravity's rule is that four weeks without progress means the cycle is finished, not that you need to try harder.",
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "overcoming-gravity-2e"
+        ]
+      },
+      {
+        "id": "tendon-irritation-layoff",
+        "trigger": "Tendon pain forcing modified or stopped training",
+        "typical_dropback": "Highly variable. Time lost is usually 6–12 weeks because the tissue must be reloaded from a low baseline, and the affected step is typically lost entirely.",
+        "recovery_weeks": {
+          "min": 6,
+          "max": 16
+        },
+        "action": "Drop to the last pain-free step, reintroduce isometric then slow eccentric loading, and rebuild across at least 8–12 weeks — the window in which tendon stiffness actually changes. Returning at the previous intensity is the most common cause of recurrence.",
+        "confidence": "published-standard",
+        "source_ids": [
+          "bohm-2015-tendon",
+          "mujika-2000-detraining-2"
+        ]
+      }
+    ],
+    "injury_risk_timeline": [
+      {
+        "tissue": "shoulder",
+        "peaks_at_step_ids": [
+          "dip-bar",
+          "dip-ring"
+        ],
+        "mechanism": "Dipping below 90° of shoulder extension before the joint tolerates the range",
+        "onset_weeks_from_entry": {
+          "min": 8,
+          "max": 20
+        },
+        "prophylaxis": [
+          "Earn a 30s bar support hold before any dip reps",
+          "Add depth gradually rather than all at once",
+          "Keep scapulae depressed throughout"
+        ],
+        "red_flags": [
+          "Front-of-shoulder pinching at the bottom",
+          "Pain that persists after the set"
+        ],
+        "confidence": "coach-consensus",
+        "source_ids": [
+          "overcoming-gravity-2e"
+        ]
+      },
+      {
+        "tissue": "elbow",
+        "peaks_at_step_ids": [
+          "pull-advanced",
+          "dip-weighted"
+        ],
+        "mechanism": "Rapid volume increases on loaded pulling and pressing outpace tendon adaptation, which needs 8–12 weeks",
+        "onset_weeks_from_entry": {
+          "min": 12,
+          "max": 30
+        },
+        "prophylaxis": [
+          "Increase weekly pulling volume by no more than ~10% per week",
+          "Keep some volume at lower intensity rather than every set near-maximal"
+        ],
+        "red_flags": [
+          "Medial or lateral elbow ache during the first rep of a set",
+          "Grip weakness the day after pulling"
+        ],
+        "confidence": "published-standard",
+        "source_ids": [
+          "bohm-2015-tendon",
+          "acsm-progression-2009"
+        ]
+      }
+    ],
+    "volume_patterns": {
+      "productive": {
+        "sessions_per_week": {
+          "min": 3,
+          "max": 4
+        },
+        "hard_sets_per_session": {
+          "min": 4,
+          "max": 8
+        },
+        "notes": "ACSM recommends 3–4 sessions per week for intermediates and 4–5 for advanced trainees. Tendon work shows no additional benefit beyond roughly 2.5–5 sessions per week, so extra frequency mostly buys injury risk.",
+        "source_ids": [
+          "acsm-progression-2009",
+          "arampatzis-2024-loading",
+          "gmb-training-frequency"
+        ]
+      },
+      "too_much_signals": [
+        "Hold times shorter in week 3 of a block than in week 1 despite equal or greater effort",
+        "Joint or tendon soreness that is still present at the start of the next session rather than easing during warm-up",
+        "Needing progressively longer warm-ups to reach the same working quality",
+        "Shape degrading within a set — reaching the time target only by bending arms or piking",
+        "Sleep or appetite disruption alongside stalled numbers"
+      ],
+      "deload": {
+        "every_weeks": {
+          "min": 4,
+          "max": 8
+        },
+        "protocol": "One week at roughly half the usual hard sets, keeping intensity and shape quality intact.",
+        "trigger": "Planned every 4–8 weeks, or immediately after four consecutive weeks without measurable progress.",
+        "source_ids": [
+          "overcoming-gravity-2e",
+          "acsm-progression-2009"
+        ]
+      }
+    }
+  }
 }
