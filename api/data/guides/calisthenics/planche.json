@@ -1,0 +1,540 @@
+{
+  "schema_version": 1,
+  "kind": "skill_tree",
+  "slug": "planche",
+  "name": "Planche",
+  "family": "push",
+  "difficulty": "elite",
+  "summary": "Straight-arm horizontal push hold. Build lean angle, protraction, and progressive tuck → straddle → full.",
+  "prerequisites": [
+    "foundations",
+    "elbow-lever"
+  ],
+  "entry_assessment": [
+    {
+      "name": "Frog stand / crow",
+      "target": "30s clean hold"
+    },
+    {
+      "name": "Pseudo planche push-ups (elevated feet)",
+      "target": "15–20 reps, lean ≥30°"
+    },
+    {
+      "name": "Wall plank (chest-to-wall)",
+      "target": "30s"
+    },
+    {
+      "name": "Tuck L-sit",
+      "target": "30s"
+    },
+    {
+      "name": "Wrist dorsiflexion under load",
+      "target": "pain-free ≥90°"
+    }
+  ],
+  "equipment": [
+    "floor",
+    "parallettes",
+    "band",
+    "blocks"
+  ],
+  "primary_muscles": [
+    "deltoids",
+    "chest",
+    "abs"
+  ],
+  "secondary_muscles": [
+    "triceps",
+    "forearm",
+    "upper-back"
+  ],
+  "anatome_layers_payload": [
+    {
+      "color": "#DC2626",
+      "muscles": [
+        "deltoids",
+        "chest",
+        "abs"
+      ]
+    },
+    {
+      "color": "#F59E0B",
+      "muscles": [
+        "triceps",
+        "forearm",
+        "upper-back"
+      ]
+    }
+  ],
+  "goal": {
+    "metric": "hold_seconds",
+    "value": 10,
+    "value_max": 15,
+    "sets": 3,
+    "notes": "Full planche, legs together, body horizontal, straight arms"
+  },
+  "programming": {
+    "strength_frequency_per_week": "3–4",
+    "skill_frequency_per_week": "optional light leans daily",
+    "notes": "Never to failure. Pair with front lever for push/pull balance. Rest 3–5 min between hard sets."
+  },
+  "safety": {
+    "injury_risk": "high",
+    "contraindications": [
+      "Active biceps tendinopathy",
+      "Acute wrist pain under load",
+      "Unstable shoulder"
+    ],
+    "notes": "Parallettes strongly preferred from tuck onward. Condition biceps with dragon leans / supine hangs before long full-planche attempts."
+  },
+  "divergence_notes": "OG often wants ~60s tuck before advancing; FitnessFAQs/community often accept 30–45s. Unlock ranges encode both.",
+  "sources": [
+    "OG2",
+    "FF",
+    "CM",
+    "SW"
+  ],
+  "attribution": "Original progression text © NextSolutions / portfolio authors (CC-BY-4.0). Coaching conventions synthesized from publicly discussed standards (OG2, FitnessFAQs, GMB, CaliMove, r/bwf RR, street-workout). YouTube embeds stream from creators — not re-hosted. Muscle diagrams via api.anatome.dev.",
+  "license": "CC-BY-4.0",
+  "steps": [
+    {
+      "cues": [
+        "Push the floor away — round upper back between blades",
+        "Lock elbows; rotate elbow pits forward",
+        "One line from shoulders through hips; do not pike"
+      ],
+      "common_faults": [
+        "Insufficient lean (hands under shoulders)",
+        "Bent elbows",
+        "Hips sagging or piking"
+      ],
+      "drills": [
+        {
+          "slug": "scapular-push-up",
+          "name": "Scapular push-up",
+          "role": "accessory",
+          "instructions": [
+            "Plank position, arms straight",
+            "Protract and retract scapulae without bending elbows"
+          ]
+        },
+        {
+          "slug": "wrist-mobility",
+          "name": "Wrist mobility + extensor work",
+          "role": "mobility",
+          "instructions": [
+            "Daily wrist circles, prayer stretch, reverse wrist curls"
+          ]
+        }
+      ],
+      "exercise_refs": [],
+      "id": "planche-lean",
+      "order": 1,
+      "name": "Planche lean",
+      "level": "beginner",
+      "intent": "Learn forward lean past wrists with locked elbows and hard protraction.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "45–60s",
+        "rest_seconds": 120,
+        "frequency_per_week": "3–4"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 60,
+        "sets": 3,
+        "notes": "≥45° lean",
+        "strict_og": true
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=odcPqBOlJhI",
+          "title": "Pseudo Planche Done RIGHT — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 45,
+          "end_seconds": 70
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Pushups",
+          "title": "Form GIF · Pushups",
+          "channel": "anatome.dev",
+          "ext_id": "Pushups"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Look slightly forward",
+        "Knees high on triceps",
+        "Light finger pressure to balance"
+      ],
+      "common_faults": [
+        "Collapsing elbows",
+        "Looking down causing forward tip"
+      ],
+      "drills": [
+        {
+          "slug": "crow-entries",
+          "name": "Crow entries from squat",
+          "role": "main",
+          "instructions": [
+            "From deep squat, place hands, lean, lift one foot then both"
+          ]
+        }
+      ],
+      "exercise_refs": [],
+      "id": "frog-stand",
+      "order": 2,
+      "name": "Frog stand (crow)",
+      "level": "beginner",
+      "intent": "Build hand balance and straight-arm confidence with knees on arms.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "20–30s",
+        "rest_seconds": 90,
+        "frequency_per_week": "3–5"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 30,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=MJrFdfNmIEU",
+          "title": "Elbow lever — demo clip",
+          "channel": "Simonster Strength",
+          "start_seconds": 15,
+          "end_seconds": 40
+        },
+        {
+          "provider": "cali-gif",
+          "url": "assets/gifs/frog-stand.gif",
+          "title": "Demo GIF · frog stand (AI)",
+          "channel": "anatome.dev · AI demo",
+          "ai_generated": true,
+          "file": "frog-stand.gif"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Hips to shoulder height",
+        "Protract hard",
+        "Knees to chest"
+      ],
+      "common_faults": [
+        "Hips too low",
+        "Bent elbows",
+        "Breath-holding"
+      ],
+      "drills": [
+        {
+          "slug": "pppu",
+          "name": "Pseudo planche push-up",
+          "role": "accessory",
+          "instructions": [
+            "Hands by hips, lean forward",
+            "Push-up while maintaining lean"
+          ]
+        }
+      ],
+      "exercise_refs": [],
+      "id": "tuck-planche",
+      "order": 3,
+      "name": "Tuck planche (floor)",
+      "level": "intermediate",
+      "intent": "Support full bodyweight with knees tucked, hips at shoulder height.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "20–45s",
+        "rest_seconds": 180,
+        "frequency_per_week": "3–4"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 30,
+        "value_max": 45,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=YHkHgJOAe9A",
+          "title": "Tuck planche — demo clip",
+          "channel": "Vitaly Pavlenko",
+          "start_seconds": 20,
+          "end_seconds": 45
+        },
+        {
+          "provider": "cali-gif",
+          "url": "assets/gifs/tuck-planche.gif",
+          "title": "Demo GIF · tuck planche (AI)",
+          "channel": "anatome.dev · AI demo",
+          "ai_generated": true,
+          "file": "tuck-planche.gif"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Same cues as floor tuck",
+        "Depress scapulae into the bars"
+      ],
+      "common_faults": [
+        "Shrugging",
+        "Short holds with ugly form"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "tuck-planche-parallettes",
+      "order": 4,
+      "name": "Tuck planche (parallettes)",
+      "level": "intermediate",
+      "intent": "Same tuck shape with wrist relief and slightly longer lever.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "30–60s",
+        "rest_seconds": 180,
+        "frequency_per_week": "3–4"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 45,
+        "value_max": 60,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=YHkHgJOAe9A",
+          "title": "Tuck planche — demo clip",
+          "channel": "Vitaly Pavlenko",
+          "start_seconds": 20,
+          "end_seconds": 45
+        },
+        {
+          "provider": "cali-gif",
+          "url": "assets/gifs/tuck-planche.gif",
+          "title": "Demo GIF · tuck planche (AI)",
+          "channel": "anatome.dev · AI demo",
+          "ai_generated": true,
+          "file": "tuck-planche.gif"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Flatten the back",
+        "Open hips without dropping",
+        "Keep elbows locked"
+      ],
+      "common_faults": [
+        "Rounded back (still regular tuck)",
+        "Hips dropping below shoulders"
+      ],
+      "drills": [
+        {
+          "slug": "band-assisted-adv-tuck",
+          "name": "Band-assisted advanced tuck",
+          "role": "accessory",
+          "instructions": [
+            "Loop band under hips for volume holds"
+          ]
+        }
+      ],
+      "exercise_refs": [],
+      "id": "advanced-tuck-planche",
+      "order": 5,
+      "name": "Advanced tuck planche",
+      "level": "advanced",
+      "intent": "Open hips so the back is flat/parallel; knees still tucked. Hardest single jump.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "15–45s",
+        "rest_seconds": 180,
+        "frequency_per_week": "3–4"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 30,
+        "value_max": 45,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=LgPG0MZPI84",
+          "title": "Planche shapes — demo clip",
+          "channel": "Andry Strong",
+          "start_seconds": 60,
+          "end_seconds": 90
+        },
+        {
+          "provider": "cali-gif",
+          "url": "assets/gifs/advanced-tuck-planche.gif",
+          "title": "Demo GIF · advanced tuck planche (AI)",
+          "channel": "anatome.dev · AI demo",
+          "ai_generated": true,
+          "file": "advanced-tuck-planche.gif"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Wide straddle reduces lever",
+        "Point toes",
+        "Hollow + glute squeeze"
+      ],
+      "common_faults": [
+        "Piked hips",
+        "Soft elbows"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "straddle-planche",
+      "order": 6,
+      "name": "Straddle planche",
+      "level": "advanced",
+      "intent": "Extend legs wide; body horizontal on straight arms.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "10–30s",
+        "rest_seconds": 180,
+        "frequency_per_week": "3"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 15,
+        "value_max": 30,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=LgPG0MZPI84",
+          "title": "Planche shapes — demo clip",
+          "channel": "Andry Strong",
+          "start_seconds": 60,
+          "end_seconds": 90
+        },
+        {
+          "provider": "cali-gif",
+          "url": "assets/gifs/straddle-planche.gif",
+          "title": "Demo GIF · straddle planche (AI)",
+          "channel": "anatome.dev · AI demo",
+          "ai_generated": true,
+          "file": "straddle-planche.gif"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "One leg tucked, one extended",
+        "Keep hips square"
+      ],
+      "common_faults": [
+        "Twisting torso"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "one-leg-planche",
+      "order": 7,
+      "name": "One-leg planche",
+      "level": "advanced",
+      "intent": "Bridge to full when hip mobility limits straddle.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "10–15s/side",
+        "rest_seconds": 180,
+        "frequency_per_week": "3"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 15,
+        "sets": 3,
+        "notes": "each side"
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=LgPG0MZPI84",
+          "title": "Planche shapes — demo clip",
+          "channel": "Andry Strong",
+          "start_seconds": 60,
+          "end_seconds": 90
+        },
+        {
+          "provider": "cali-gif",
+          "url": "assets/gifs/straddle-planche.gif",
+          "title": "Demo GIF · straddle planche (AI)",
+          "channel": "anatome.dev · AI demo",
+          "ai_generated": true,
+          "file": "straddle-planche.gif"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Squeeze legs together",
+        "Protract + hollow",
+        "Short clean holds > long ugly ones"
+      ],
+      "common_faults": [
+        "Banana back",
+        "Bent elbows",
+        "Hips low"
+      ],
+      "drills": [
+        {
+          "slug": "maltese-prep",
+          "name": "Wide PPPU / maltese prep",
+          "role": "accessory",
+          "instructions": [
+            "Wider hand placement, fingers out — advanced track only"
+          ]
+        }
+      ],
+      "exercise_refs": [],
+      "id": "full-planche",
+      "order": 8,
+      "name": "Full planche",
+      "level": "elite",
+      "intent": "Legs together, body horizontal, straight arms — the skill goal.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "5–15s",
+        "rest_seconds": 240,
+        "frequency_per_week": "2–3"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 10,
+        "value_max": 15,
+        "sets": 3,
+        "notes": "clean full planche"
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=LgPG0MZPI84",
+          "title": "Planche shapes — demo clip",
+          "channel": "Andry Strong",
+          "start_seconds": 60,
+          "end_seconds": 90
+        },
+        {
+          "provider": "cali-gif",
+          "url": "assets/gifs/full-planche.gif",
+          "title": "Demo GIF · full planche (AI)",
+          "channel": "anatome.dev · AI demo",
+          "ai_generated": true,
+          "file": "full-planche.gif"
+        }
+      ]
+    }
+  ]
+}

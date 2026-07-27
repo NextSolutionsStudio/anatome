@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "kind": "skill_tree",
+  "attribution": "Original progression text © NextSolutions / portfolio authors (CC-BY-4.0). Coaching conventions synthesized from publicly discussed standards (OG2, FitnessFAQs, GMB, CaliMove, r/bwf RR, street-workout). YouTube embeds stream from creators — not re-hosted. Muscle diagrams via api.anatome.dev.",
+  "license": "CC-BY-4.0",
+  "slug": "one-arm-pull-up",
+  "name": "One-Arm Pull-up / Chin-up",
+  "family": "pull",
+  "difficulty": "elite",
+  "summary": "Pulling pinnacle. Weighted → archer → assisted → negative → full OAC/OAP.",
+  "prerequisites": [
+    "foundations"
+  ],
+  "entry_assessment": [
+    {
+      "name": "Strict pull-ups",
+      "target": "3×8"
+    },
+    {
+      "name": "Weighted pull-up",
+      "target": "+50% BW (FF benchmark)"
+    },
+    {
+      "name": "One-arm hang",
+      "target": "15s/side"
+    }
+  ],
+  "equipment": [
+    "bar",
+    "band",
+    "chalk"
+  ],
+  "primary_muscles": [
+    "upper-back",
+    "biceps"
+  ],
+  "secondary_muscles": [
+    "forearm",
+    "abs",
+    "deltoids"
+  ],
+  "anatome_layers_payload": [
+    {
+      "color": "#DC2626",
+      "muscles": [
+        "upper-back",
+        "biceps"
+      ]
+    },
+    {
+      "color": "#F59E0B",
+      "muscles": [
+        "forearm",
+        "abs",
+        "deltoids"
+      ]
+    }
+  ],
+  "goal": {
+    "metric": "reps_per_side",
+    "value": 1,
+    "sets": 1,
+    "notes": "1 clean OAC or OAP"
+  },
+  "programming": {
+    "strength_frequency_per_week": "2–3"
+  },
+  "safety": {
+    "injury_risk": "high",
+    "contraindications": [
+      "Elbow tendinopathy",
+      "Shoulder pain on one-arm hang"
+    ],
+    "notes": "High elbow stress. Prefer chin-up (supinated) first for many athletes."
+  },
+  "sources": [
+    "OG2",
+    "FF",
+    "CC"
+  ],
+  "divergence_notes": "CC demands very high two-arm volume first; FF uses +50% BW weighted pull as a key benchmark.",
+  "steps": [
+    {
+      "cues": [
+        "Full ROM",
+        "No kip"
+      ],
+      "common_faults": [
+        "Partial ROM under load"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "oac-weighted-pull",
+      "order": 1,
+      "name": "Weighted pull-up",
+      "level": "advanced",
+      "intent": "Build raw pulling strength.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "3–5",
+        "rest_seconds": 180,
+        "frequency_per_week": "2–3"
+      },
+      "unlock": {
+        "metric": "custom",
+        "value": 1,
+        "notes": "+50% BW for 1–3 reps"
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=mTJHClMQPM8",
+          "title": "One-arm pull-up — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 50,
+          "end_seconds": 80
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=One_Arm_Chin-Up",
+          "title": "Form GIF · One Arm Chin-Up",
+          "channel": "anatome.dev",
+          "ext_id": "One_Arm_Chin-Up"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Shift to working side"
+      ],
+      "common_faults": [
+        "Both arms pulling equally"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "oac-archer",
+      "order": 2,
+      "name": "Archer pull-up",
+      "level": "advanced",
+      "intent": "Unilateral emphasis with assist arm straight.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "4/side",
+        "rest_seconds": 150,
+        "frequency_per_week": "2–3"
+      },
+      "unlock": {
+        "metric": "reps_per_side",
+        "value": 4,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=mTJHClMQPM8",
+          "title": "One-arm pull-up — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 50,
+          "end_seconds": 80
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=One_Arm_Chin-Up",
+          "title": "Form GIF · One Arm Chin-Up",
+          "channel": "anatome.dev",
+          "ext_id": "One_Arm_Chin-Up"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Minimize assist over weeks"
+      ],
+      "common_faults": [
+        "Using too much assist forever"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "oac-assisted",
+      "order": 3,
+      "name": "Band / towel-assisted OAC",
+      "level": "elite",
+      "intent": "Near one-arm with light assist.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "3/side",
+        "rest_seconds": 180,
+        "frequency_per_week": "2"
+      },
+      "unlock": {
+        "metric": "reps_per_side",
+        "value": 3,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=mTJHClMQPM8",
+          "title": "One-arm pull-up — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 50,
+          "end_seconds": 80
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=One_Arm_Chin-Up",
+          "title": "Form GIF · One Arm Chin-Up",
+          "channel": "anatome.dev",
+          "ext_id": "One_Arm_Chin-Up"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "5–8s lower",
+        "Stay square"
+      ],
+      "common_faults": [
+        "Twisting hard",
+        "Dropping"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "oac-negative",
+      "order": 4,
+      "name": "One-arm negative",
+      "level": "elite",
+      "intent": "Slow eccentric one-arm.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "2–3/side",
+        "rest_seconds": 180,
+        "frequency_per_week": "2"
+      },
+      "unlock": {
+        "metric": "reps_per_side",
+        "value": 3,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=mTJHClMQPM8",
+          "title": "One-arm pull-up — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 50,
+          "end_seconds": 80
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=One_Arm_Chin-Up",
+          "title": "Form GIF · One Arm Chin-Up",
+          "channel": "anatome.dev",
+          "ext_id": "One_Arm_Chin-Up"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Tight hollow",
+        "Pull elbow to hip"
+      ],
+      "common_faults": [
+        "Huge kip",
+        "Incomplete chin-over"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "oac-full",
+      "order": 5,
+      "name": "One-arm chin-up / pull-up",
+      "level": "elite",
+      "intent": "The skill.",
+      "programming": {
+        "sets": 5,
+        "reps_or_hold": "attempts",
+        "rest_seconds": 180,
+        "frequency_per_week": "2"
+      },
+      "unlock": {
+        "metric": "reps_per_side",
+        "value": 1,
+        "sets": 1
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=mTJHClMQPM8",
+          "title": "One-arm pull-up — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 50,
+          "end_seconds": 80
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=One_Arm_Chin-Up",
+          "title": "Form GIF · One Arm Chin-Up",
+          "channel": "anatome.dev",
+          "ext_id": "One_Arm_Chin-Up"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,668 @@
+{
+  "schema_version": 1,
+  "kind": "skill_tree",
+  "slug": "muscle-up",
+  "name": "Muscle-up",
+  "family": "hybrid",
+  "difficulty": "advanced",
+  "summary": "Pull + transition + dip. Parallel bar (false-grip) and rings tracks. Strict-first with optional kip branch.",
+  "prerequisites": [
+    "foundations"
+  ],
+  "entry_assessment": [
+    {
+      "name": "Strict pull-ups (chest-to-bar+)",
+      "target": "8–10"
+    },
+    {
+      "name": "Strict dips",
+      "target": "8–10"
+    },
+    {
+      "name": "Ring support hold (rings track)",
+      "target": "30s"
+    },
+    {
+      "name": "False-grip hang (bar track)",
+      "target": "30s"
+    }
+  ],
+  "equipment": [
+    "bar",
+    "rings",
+    "band",
+    "chalk"
+  ],
+  "primary_muscles": [
+    "upper-back",
+    "chest",
+    "triceps"
+  ],
+  "secondary_muscles": [
+    "biceps",
+    "forearm",
+    "deltoids",
+    "abs"
+  ],
+  "anatome_layers_payload": [
+    {
+      "color": "#DC2626",
+      "muscles": [
+        "upper-back",
+        "chest",
+        "triceps"
+      ]
+    },
+    {
+      "color": "#F59E0B",
+      "muscles": [
+        "biceps",
+        "forearm",
+        "deltoids",
+        "abs"
+      ]
+    }
+  ],
+  "goal": {
+    "metric": "reps",
+    "value": 3,
+    "sets": 1,
+    "notes": "3 strict muscle-ups (bar or rings)"
+  },
+  "programming": {
+    "strength_frequency_per_week": "2–3",
+    "notes": "Watch elbows — transition is a common tendinopathy site. Low-intensity transition drills more often."
+  },
+  "safety": {
+    "injury_risk": "high",
+    "contraindications": [
+      "Medial/lateral elbow pain",
+      "Acute wrist issues with false grip"
+    ],
+    "notes": "Build pull height and slow negatives before hard kipping volume."
+  },
+  "divergence_notes": "Street-workout often teaches kip-first; FF/OG prefer strict-first. Both orders appear as steps; unlock strict for the goal.",
+  "sources": [
+    "OG2",
+    "FF",
+    "RR",
+    "SW",
+    "CM"
+  ],
+  "attribution": "Original progression text © NextSolutions / portfolio authors (CC-BY-4.0). Coaching conventions synthesized from publicly discussed standards (OG2, FitnessFAQs, GMB, CaliMove, r/bwf RR, street-workout). YouTube embeds stream from creators — not re-hosted. Muscle diagrams via api.anatome.dev.",
+  "license": "CC-BY-4.0",
+  "tracks": [
+    {
+      "id": "bar",
+      "name": "Bar muscle-up",
+      "step_ids": [
+        "false-grip-hang",
+        "chest-to-bar-pull",
+        "straight-bar-dip",
+        "mu-negatives",
+        "kipping-bar-mu",
+        "strict-bar-mu"
+      ]
+    },
+    {
+      "id": "rings",
+      "name": "Ring muscle-up",
+      "step_ids": [
+        "ring-support-hold",
+        "deep-ring-pull",
+        "ring-dip",
+        "low-ring-transition",
+        "ring-mu-negatives",
+        "strict-ring-mu"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "cues": [
+        "Wrists over bar before you pull",
+        "Short sets"
+      ],
+      "common_faults": [
+        "Losing false grip mid-rep"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "false-grip-hang",
+      "order": 1,
+      "name": "False-grip hang",
+      "level": "intermediate",
+      "track": "bar",
+      "intent": "Lock wrists over the bar for bar MU transition.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "20–30s",
+        "rest_seconds": 90,
+        "frequency_per_week": "3"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 30,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=_iYvlSMgUGE",
+          "title": "Bar muscle-up — demo clip",
+          "channel": "CHRIS HERIA",
+          "start_seconds": 30,
+          "end_seconds": 60
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Chin-Up",
+          "title": "Form GIF · Chin-Up",
+          "channel": "anatome.dev",
+          "ext_id": "Chin-Up"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Pull to waist, not chin",
+        "Hollow body"
+      ],
+      "common_faults": [
+        "Stopping at chin height"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "chest-to-bar-pull",
+      "order": 2,
+      "name": "Chest-to-bar → waist pull-up",
+      "level": "intermediate",
+      "track": "bar",
+      "intent": "Pull high enough to clear the transition.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "5–8 reps",
+        "rest_seconds": 150,
+        "frequency_per_week": "2–3"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 8,
+        "sets": 3,
+        "notes": "to lower chest; also 3×3 to waist"
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=MhokcbRLP5w",
+          "title": "Pull-up form — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 40,
+          "end_seconds": 70
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Pullups",
+          "title": "Form GIF · Pullups",
+          "channel": "anatome.dev",
+          "ext_id": "Pullups"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Full ROM",
+        "Lean slightly forward"
+      ],
+      "common_faults": [
+        "Partial lockout",
+        "Shrugging"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "straight-bar-dip",
+      "order": 3,
+      "name": "Straight-bar dip",
+      "level": "intermediate",
+      "track": "bar",
+      "intent": "Lockout strength above the bar.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "6–8 reps",
+        "rest_seconds": 120,
+        "frequency_per_week": "2–3"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 8,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=l41SoWZiowI",
+          "title": "Dip tutorial — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 35,
+          "end_seconds": 65
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Dips_-_Triceps_Version",
+          "title": "Form GIF · Dips - Triceps Version",
+          "channel": "anatome.dev",
+          "ext_id": "Dips_-_Triceps_Version"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Elbows back then up",
+        "Slow 3–5s"
+      ],
+      "common_faults": [
+        "Dropping through transition"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "mu-negatives",
+      "order": 4,
+      "name": "Muscle-up negatives (transition)",
+      "level": "advanced",
+      "track": "bar",
+      "intent": "Groove the transition by slowly lowering through it.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "3–5 slow reps",
+        "rest_seconds": 180,
+        "frequency_per_week": "2–3"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 5,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=_iYvlSMgUGE",
+          "title": "Bar muscle-up — demo clip",
+          "channel": "CHRIS HERIA",
+          "start_seconds": 30,
+          "end_seconds": 60
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Muscle_Up",
+          "title": "Form GIF · Muscle Up",
+          "channel": "anatome.dev",
+          "ext_id": "Muscle_Up"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Timing of hip kick",
+        "Pull then sit"
+      ],
+      "common_faults": [
+        "Early sit",
+        "No pull height"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "kipping-bar-mu",
+      "order": 5,
+      "name": "Kipping bar muscle-up",
+      "level": "advanced",
+      "track": "bar",
+      "intent": "Optional accessible path — hip drive + transition.",
+      "programming": {
+        "sets": 5,
+        "reps_or_hold": "attempts",
+        "rest_seconds": 120,
+        "frequency_per_week": "2"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 1,
+        "sets": 1
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=_iYvlSMgUGE",
+          "title": "Bar muscle-up — demo clip",
+          "channel": "CHRIS HERIA",
+          "start_seconds": 30,
+          "end_seconds": 60
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Muscle_Up",
+          "title": "Form GIF · Muscle Up",
+          "channel": "anatome.dev",
+          "ext_id": "Muscle_Up"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Hollow",
+        "High pull",
+        "Clean transition"
+      ],
+      "common_faults": [
+        "Hidden kip",
+        "Losing false grip"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "strict-bar-mu",
+      "order": 6,
+      "name": "Strict bar muscle-up",
+      "level": "elite",
+      "track": "bar",
+      "intent": "No kip, false grip — primary bar goal.",
+      "programming": {
+        "sets": 5,
+        "reps_or_hold": "1–3 reps",
+        "rest_seconds": 180,
+        "frequency_per_week": "2"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 3,
+        "sets": 1
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=_iYvlSMgUGE",
+          "title": "Bar muscle-up — demo clip",
+          "channel": "CHRIS HERIA",
+          "start_seconds": 30,
+          "end_seconds": 60
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Muscle_Up",
+          "title": "Form GIF · Muscle Up",
+          "channel": "anatome.dev",
+          "ext_id": "Muscle_Up"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Turn rings out",
+        "Lock elbows",
+        "Depress scapulae"
+      ],
+      "common_faults": [
+        "Rings collapsing inward"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "ring-support-hold",
+      "order": 7,
+      "name": "Ring support hold",
+      "level": "intermediate",
+      "track": "rings",
+      "intent": "Stable support with rings turned out.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "20–30s",
+        "rest_seconds": 90,
+        "frequency_per_week": "3"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 30,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=YSe03rIY-xQ",
+          "title": "Ring/bar muscle-up — demo clip",
+          "channel": "Sondre Berg (Berg Movement)",
+          "start_seconds": 45,
+          "end_seconds": 75
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Muscle_Up",
+          "title": "Form GIF · Muscle Up",
+          "channel": "anatome.dev",
+          "ext_id": "Muscle_Up"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Full hang",
+        "Pull deep"
+      ],
+      "common_faults": [
+        "Short ROM"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "deep-ring-pull",
+      "order": 8,
+      "name": "Deep ring pull-up",
+      "level": "intermediate",
+      "track": "rings",
+      "intent": "Pull rings to chest/hips for transition height.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "6–8 reps",
+        "rest_seconds": 150,
+        "frequency_per_week": "2–3"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 8,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=YSe03rIY-xQ",
+          "title": "Ring/bar muscle-up — demo clip",
+          "channel": "Sondre Berg (Berg Movement)",
+          "start_seconds": 45,
+          "end_seconds": 75
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Muscle_Up",
+          "title": "Form GIF · Muscle Up",
+          "channel": "anatome.dev",
+          "ext_id": "Muscle_Up"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Rings out at top",
+        "Controlled descent"
+      ],
+      "common_faults": [
+        "Wobble",
+        "Partial depth"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "ring-dip",
+      "order": 9,
+      "name": "Ring dip",
+      "level": "intermediate",
+      "track": "rings",
+      "intent": "Stable full-ROM dip on rings.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "6–8 reps",
+        "rest_seconds": 120,
+        "frequency_per_week": "2–3"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 8,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=l41SoWZiowI",
+          "title": "Dip tutorial — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 35,
+          "end_seconds": 65
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Dips_-_Triceps_Version",
+          "title": "Form GIF · Dips - Triceps Version",
+          "channel": "anatome.dev",
+          "ext_id": "Dips_-_Triceps_Version"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Elbows back",
+        "Then sit to support"
+      ],
+      "common_faults": [
+        "Diving head first"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "low-ring-transition",
+      "order": 10,
+      "name": "Low-ring transition drill",
+      "level": "advanced",
+      "track": "rings",
+      "intent": "Feet-supported turnover pattern.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "8–10 reps",
+        "rest_seconds": 90,
+        "frequency_per_week": "3"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 10,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=_iYvlSMgUGE",
+          "title": "Bar muscle-up — demo clip",
+          "channel": "CHRIS HERIA",
+          "start_seconds": 30,
+          "end_seconds": 60
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Muscle_Up",
+          "title": "Form GIF · Muscle Up",
+          "channel": "anatome.dev",
+          "ext_id": "Muscle_Up"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "3–5s through sticky point"
+      ],
+      "common_faults": [
+        "Dropping"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "ring-mu-negatives",
+      "order": 11,
+      "name": "Negative ring muscle-up",
+      "level": "advanced",
+      "track": "rings",
+      "intent": "Slow descent through transition.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "3–5 reps",
+        "rest_seconds": 180,
+        "frequency_per_week": "2–3"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 5,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=YSe03rIY-xQ",
+          "title": "Ring/bar muscle-up — demo clip",
+          "channel": "Sondre Berg (Berg Movement)",
+          "start_seconds": 45,
+          "end_seconds": 75
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Muscle_Up",
+          "title": "Form GIF · Muscle Up",
+          "channel": "anatome.dev",
+          "ext_id": "Muscle_Up"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Pull high before rotating",
+        "Turn rings out at support"
+      ],
+      "common_faults": [
+        "Throwing head over early"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "strict-ring-mu",
+      "order": 12,
+      "name": "Strict ring muscle-up",
+      "level": "elite",
+      "track": "rings",
+      "intent": "No kip — primary rings goal.",
+      "programming": {
+        "sets": 5,
+        "reps_or_hold": "1–3 reps",
+        "rest_seconds": 180,
+        "frequency_per_week": "2"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 3,
+        "sets": 1
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=YSe03rIY-xQ",
+          "title": "Ring/bar muscle-up — demo clip",
+          "channel": "Sondre Berg (Berg Movement)",
+          "start_seconds": 45,
+          "end_seconds": 75
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Muscle_Up",
+          "title": "Form GIF · Muscle Up",
+          "channel": "anatome.dev",
+          "ext_id": "Muscle_Up"
+        }
+      ]
+    }
+  ]
+}

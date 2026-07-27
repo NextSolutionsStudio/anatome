@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "kind": "skill_tree",
+  "attribution": "Original progression text © NextSolutions / portfolio authors (CC-BY-4.0). Coaching conventions synthesized from publicly discussed standards (OG2, FitnessFAQs, GMB, CaliMove, r/bwf RR, street-workout). YouTube embeds stream from creators — not re-hosted. Muscle diagrams via api.anatome.dev.",
+  "license": "CC-BY-4.0",
+  "slug": "dragon-flag",
+  "name": "Dragon Flag",
+  "family": "core",
+  "difficulty": "advanced",
+  "summary": "Premier anti-extension core. Feeds front lever, planche line, and flag.",
+  "prerequisites": [
+    "foundations"
+  ],
+  "entry_assessment": [
+    {
+      "name": "Hollow hold",
+      "target": "60s"
+    },
+    {
+      "name": "Toes-to-bar",
+      "target": "10"
+    }
+  ],
+  "equipment": [
+    "bench",
+    "pole",
+    "floor"
+  ],
+  "primary_muscles": [
+    "abs",
+    "lower-back"
+  ],
+  "secondary_muscles": [
+    "gluteal",
+    "upper-back",
+    "forearm"
+  ],
+  "anatome_layers_payload": [
+    {
+      "color": "#DC2626",
+      "muscles": [
+        "abs",
+        "lower-back"
+      ]
+    },
+    {
+      "color": "#F59E0B",
+      "muscles": [
+        "gluteal",
+        "upper-back",
+        "forearm"
+      ]
+    }
+  ],
+  "goal": {
+    "metric": "reps",
+    "value": 5,
+    "sets": 3,
+    "notes": "full dragon flag, straight body"
+  },
+  "programming": {
+    "strength_frequency_per_week": "2–3"
+  },
+  "safety": {
+    "injury_risk": "moderate",
+    "contraindications": [
+      "Acute lower-back pain"
+    ],
+    "notes": "Anchor shoulders securely. Stop if lumbar discomfort (not muscular burn)."
+  },
+  "sources": [
+    "FF",
+    "OG2",
+    "CM"
+  ],
+  "steps": [
+    {
+      "cues": [
+        "Shoulders pinned",
+        "Body as one unit"
+      ],
+      "common_faults": [
+        "Piking at hips"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "dragon-tuck",
+      "order": 1,
+      "name": "Tuck dragon flag",
+      "level": "intermediate",
+      "intent": "Learn the line with knees tucked.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "5–8",
+        "rest_seconds": 90,
+        "frequency_per_week": "3"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 8,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=pvz7k5gO-DE",
+          "title": "Dragon flag — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 25,
+          "end_seconds": 55
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Hanging_Leg_Raise",
+          "title": "Form GIF · Hanging Leg Raise",
+          "channel": "anatome.dev",
+          "ext_id": "Hanging_Leg_Raise"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Wide straddle",
+        "No lumbar arch"
+      ],
+      "common_faults": [
+        "Using momentum"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "dragon-straddle",
+      "order": 2,
+      "name": "Straddle dragon flag",
+      "level": "advanced",
+      "intent": "Legs split — shorter lever than full.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "5",
+        "rest_seconds": 120,
+        "frequency_per_week": "2–3"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 5,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=pvz7k5gO-DE",
+          "title": "Dragon flag — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 25,
+          "end_seconds": 55
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Hanging_Pike",
+          "title": "Form GIF · Hanging Pike",
+          "channel": "anatome.dev",
+          "ext_id": "Hanging_Pike"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "3–5s eccentric"
+      ],
+      "common_faults": [
+        "Dropping at sticky point"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "dragon-negative",
+      "order": 3,
+      "name": "Negative dragon flag",
+      "level": "advanced",
+      "intent": "Slow lower from vertical to near-horizontal.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "3–5",
+        "rest_seconds": 120,
+        "frequency_per_week": "2–3"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 5,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=pvz7k5gO-DE",
+          "title": "Dragon flag — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 25,
+          "end_seconds": 55
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Hanging_Leg_Raise",
+          "title": "Form GIF · Hanging Leg Raise",
+          "channel": "anatome.dev",
+          "ext_id": "Hanging_Leg_Raise"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Point toes",
+        "Brace hard"
+      ],
+      "common_faults": [
+        "Banana shape"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "dragon-full",
+      "order": 4,
+      "name": "Full dragon flag",
+      "level": "elite",
+      "intent": "Straight body raises/lowers.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "3–5",
+        "rest_seconds": 150,
+        "frequency_per_week": "2"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 5,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=pvz7k5gO-DE",
+          "title": "Dragon flag — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 25,
+          "end_seconds": 55
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Hanging_Leg_Raise",
+          "title": "Form GIF · Hanging Leg Raise",
+          "channel": "anatome.dev",
+          "ext_id": "Hanging_Leg_Raise"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Isometric tension",
+        "Short ROM presses"
+      ],
+      "common_faults": [
+        "Kipping hips"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "dragon-press",
+      "order": 5,
+      "name": "Dragon press",
+      "level": "elite",
+      "intent": "Press from horizontal without dropping — elite core.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "3",
+        "rest_seconds": 180,
+        "frequency_per_week": "1–2"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 3,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=pvz7k5gO-DE",
+          "title": "Dragon flag — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 25,
+          "end_seconds": 55
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Hanging_Leg_Raise",
+          "title": "Form GIF · Hanging Leg Raise",
+          "channel": "anatome.dev",
+          "ext_id": "Hanging_Leg_Raise"
+        }
+      ]
+    }
+  ]
+}

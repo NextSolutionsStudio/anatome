@@ -1,0 +1,415 @@
+{
+  "schema_version": 1,
+  "kind": "skill_tree",
+  "slug": "human-flag",
+  "name": "Human Flag",
+  "family": "core",
+  "difficulty": "elite",
+  "summary": "Side-lever on a vertical pole: top arm pulls, bottom arm pushes, obliques hold the line.",
+  "prerequisites": [
+    "foundations"
+  ],
+  "entry_assessment": [
+    {
+      "name": "Side plank each side",
+      "target": "30s"
+    },
+    {
+      "name": "Pull-ups",
+      "target": "8"
+    },
+    {
+      "name": "Dips",
+      "target": "8"
+    },
+    {
+      "name": "One-arm hang",
+      "target": "15s"
+    }
+  ],
+  "equipment": [
+    "pole",
+    "chalk",
+    "bar"
+  ],
+  "primary_muscles": [
+    "obliques",
+    "upper-back",
+    "deltoids"
+  ],
+  "secondary_muscles": [
+    "abs",
+    "triceps",
+    "forearm",
+    "gluteal"
+  ],
+  "anatome_layers_payload": [
+    {
+      "color": "#DC2626",
+      "muscles": [
+        "obliques",
+        "upper-back",
+        "deltoids"
+      ]
+    },
+    {
+      "color": "#F59E0B",
+      "muscles": [
+        "abs",
+        "triceps",
+        "forearm",
+        "gluteal"
+      ]
+    }
+  ],
+  "goal": {
+    "metric": "hold_seconds",
+    "value": 5,
+    "value_max": 10,
+    "sets": 3,
+    "notes": "Full horizontal flag"
+  },
+  "programming": {
+    "strength_frequency_per_week": "2–3",
+    "notes": "High lat/oblique fatigue — avoid stacking with heavy pull days."
+  },
+  "safety": {
+    "injury_risk": "moderate",
+    "contraindications": [
+      "Acute oblique strain",
+      "Shoulder impingement on bottom arm"
+    ],
+    "notes": "Use chalk. Mixed grip common (top over, bottom under)."
+  },
+  "divergence_notes": "Fewer formal textbook standards than planche/FL; hold targets are community + FitnessFAQs norms.",
+  "sources": [
+    "OG2",
+    "FF",
+    "SW",
+    "CM"
+  ],
+  "attribution": "Original progression text © NextSolutions / portfolio authors (CC-BY-4.0). Coaching conventions synthesized from publicly discussed standards (OG2, FitnessFAQs, GMB, CaliMove, r/bwf RR, street-workout). YouTube embeds stream from creators — not re-hosted. Muscle diagrams via api.anatome.dev.",
+  "license": "CC-BY-4.0",
+  "steps": [
+    {
+      "cues": [
+        "Top arm pulls down hard",
+        "Bottom arm pushes away"
+      ],
+      "common_faults": [
+        "Only pushing with bottom arm"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "vertical-flag-support",
+      "order": 1,
+      "name": "Vertical flag support",
+      "level": "intermediate",
+      "intent": "Learn top-pull / bottom-push with feet still on ground.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "20–30s",
+        "rest_seconds": 90,
+        "frequency_per_week": "3"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 30,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=TF9XhvYh_m8",
+          "title": "Human flag — demo clip",
+          "channel": "CHRIS HERIA",
+          "start_seconds": 25,
+          "end_seconds": 55
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Side_Bridge",
+          "title": "Form GIF · Side Bridge",
+          "channel": "anatome.dev",
+          "ext_id": "Side_Bridge"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Knees tucked to pole",
+        "Stack hips"
+      ],
+      "common_faults": [
+        "Body twisting out of plane"
+      ],
+      "drills": [
+        {
+          "slug": "side-plank-raises",
+          "name": "Side plank raises",
+          "role": "accessory",
+          "instructions": [
+            "Build oblique/QL strength — rate-limiting for many"
+          ]
+        }
+      ],
+      "exercise_refs": [],
+      "id": "tuck-flag",
+      "order": 2,
+      "name": "Tuck flag",
+      "level": "advanced",
+      "intent": "Kick or press into tuck; hold body off the pole.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "5–15s",
+        "rest_seconds": 120,
+        "frequency_per_week": "2–3"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 10,
+        "value_max": 15,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=TF9XhvYh_m8",
+          "title": "Human flag — demo clip",
+          "channel": "CHRIS HERIA",
+          "start_seconds": 25,
+          "end_seconds": 55
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Side_Bridge",
+          "title": "Form GIF · Side Bridge",
+          "channel": "anatome.dev",
+          "ext_id": "Side_Bridge"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Wide straddle",
+        "Hips stacked"
+      ],
+      "common_faults": [
+        "Hips sagging"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "straddle-flag",
+      "order": 3,
+      "name": "Straddle flag",
+      "level": "advanced",
+      "intent": "Legs split to shorten lever.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "8–12s",
+        "rest_seconds": 150,
+        "frequency_per_week": "2–3"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 10,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=TF9XhvYh_m8",
+          "title": "Human flag — demo clip",
+          "channel": "CHRIS HERIA",
+          "start_seconds": 25,
+          "end_seconds": 55
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Side_Bridge",
+          "title": "Form GIF · Side Bridge",
+          "channel": "anatome.dev",
+          "ext_id": "Side_Bridge"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Equal sides"
+      ],
+      "common_faults": [
+        "Twisting"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "one-leg-flag",
+      "order": 4,
+      "name": "One-leg flag",
+      "level": "advanced",
+      "intent": "One leg extended bridge to full.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "6–10s/side",
+        "rest_seconds": 150,
+        "frequency_per_week": "2–3"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 8,
+        "sets": 3,
+        "notes": "each side"
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=TF9XhvYh_m8",
+          "title": "Human flag — demo clip",
+          "channel": "CHRIS HERIA",
+          "start_seconds": 25,
+          "end_seconds": 55
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Side_Bridge",
+          "title": "Form GIF · Side Bridge",
+          "channel": "anatome.dev",
+          "ext_id": "Side_Bridge"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Pull hard with top arm",
+        "Push with bottom",
+        "Squeeze legs"
+      ],
+      "common_faults": [
+        "Grip slipping",
+        "Hips not stacked"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "full-flag",
+      "order": 5,
+      "name": "Full human flag",
+      "level": "elite",
+      "intent": "Legs together, body horizontal to the pole.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "3–10s",
+        "rest_seconds": 180,
+        "frequency_per_week": "2"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 5,
+        "value_max": 10,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=TF9XhvYh_m8",
+          "title": "Human flag — demo clip",
+          "channel": "CHRIS HERIA",
+          "start_seconds": 25,
+          "end_seconds": 55
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Side_Bridge",
+          "title": "Form GIF · Side Bridge",
+          "channel": "anatome.dev",
+          "ext_id": "Side_Bridge"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Slow eccentric",
+        "Stay in plane"
+      ],
+      "common_faults": [
+        "Dropping through"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "flag-negatives",
+      "order": 6,
+      "name": "Flag negatives",
+      "level": "elite",
+      "intent": "From vertical, lower slowly to horizontal.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "3–5 reps",
+        "rest_seconds": 180,
+        "frequency_per_week": "2"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 5,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=TF9XhvYh_m8",
+          "title": "Human flag — demo clip",
+          "channel": "CHRIS HERIA",
+          "start_seconds": 25,
+          "end_seconds": 55
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Side_Bridge",
+          "title": "Form GIF · Side Bridge",
+          "channel": "anatome.dev",
+          "ext_id": "Side_Bridge"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Compression + strength"
+      ],
+      "common_faults": [
+        "Kicking instead of pressing"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "press-flag",
+      "order": 7,
+      "name": "Press flag",
+      "level": "elite",
+      "intent": "Press from floor to full flag without kick — elite+",
+      "programming": {
+        "sets": 5,
+        "reps_or_hold": "attempts",
+        "rest_seconds": 180,
+        "frequency_per_week": "1–2"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 1,
+        "sets": 1
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=TF9XhvYh_m8",
+          "title": "Human flag — demo clip",
+          "channel": "CHRIS HERIA",
+          "start_seconds": 25,
+          "end_seconds": 55
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Side_Bridge",
+          "title": "Form GIF · Side Bridge",
+          "channel": "anatome.dev",
+          "ext_id": "Side_Bridge"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,490 @@
+{
+  "schema_version": 1,
+  "kind": "skill_tree",
+  "attribution": "Original progression text © NextSolutions / portfolio authors (CC-BY-4.0). Coaching conventions synthesized from publicly discussed standards (OG2, FitnessFAQs, GMB, CaliMove, r/bwf RR, street-workout). YouTube embeds stream from creators — not re-hosted. Muscle diagrams via api.anatome.dev.",
+  "license": "CC-BY-4.0",
+  "slug": "v-sit-manna",
+  "name": "V-Sit / Manna",
+  "family": "core",
+  "difficulty": "elite",
+  "summary": "Compression pinnacle after L-sit: V-sit → straddle V → manna. Hip flexor + triceps compression strength.",
+  "prerequisites": [
+    "foundations"
+  ],
+  "entry_assessment": [
+    {
+      "name": "Full L-sit",
+      "target": "20–30s"
+    },
+    {
+      "name": "Tuck L-sit",
+      "target": "30s"
+    },
+    {
+      "name": "Pike compression (hands on floor)",
+      "target": "chest near knees"
+    },
+    {
+      "name": "Hollow hold",
+      "target": "45s"
+    }
+  ],
+  "equipment": [
+    "floor",
+    "parallettes",
+    "blocks",
+    "band"
+  ],
+  "primary_muscles": [
+    "abs",
+    "triceps"
+  ],
+  "secondary_muscles": [
+    "deltoids",
+    "adductors",
+    "upper-back"
+  ],
+  "anatome_layers_payload": [
+    {
+      "color": "#DC2626",
+      "muscles": [
+        "abs",
+        "triceps"
+      ]
+    },
+    {
+      "color": "#F59E0B",
+      "muscles": [
+        "deltoids",
+        "adductors",
+        "upper-back"
+      ]
+    }
+  ],
+  "goal": {
+    "metric": "hold_seconds",
+    "value": 10,
+    "value_max": 15,
+    "sets": 3,
+    "notes": "Straddle manna or advanced V-sit — hips above hands"
+  },
+  "programming": {
+    "strength_frequency_per_week": "3–4",
+    "skill_frequency_per_week": "daily light pike/compression ok",
+    "notes": "Pair with wrist + hip flexor mobility. Never train through sharp hip flexor pain."
+  },
+  "safety": {
+    "injury_risk": "moderate",
+    "contraindications": [
+      "Acute hip flexor strain",
+      "Wrist pain in compression"
+    ],
+    "notes": "Manna demands exceptional wrist dorsiflexion — build gradually from V-sit."
+  },
+  "divergence_notes": "GB/OG use long L-sit/V-sit holds before manna; FF often cycles compression drills daily.",
+  "sources": [
+    "OG2",
+    "FF",
+    "GB",
+    "CM"
+  ],
+  "tracks": [
+    {
+      "id": "v-sit",
+      "name": "V-sit track",
+      "step_ids": [
+        "vsm-pike-compression",
+        "vsm-tuck-v",
+        "vsm-straddle-v",
+        "vsm-v-sit"
+      ]
+    },
+    {
+      "id": "manna",
+      "name": "Manna track",
+      "step_ids": [
+        "vsm-tuck-manna",
+        "vsm-straddle-manna",
+        "vsm-manna",
+        "vsm-manna-press"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "cues": [
+        "Round upper back slightly",
+        "Pull knees to chest",
+        "Push floor away"
+      ],
+      "common_faults": [
+        "Only hinging at hips without spinal flexion"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "vsm-pike-compression",
+      "order": 1,
+      "name": "Pike compression sit",
+      "level": "intermediate",
+      "track": "v-sit",
+      "intent": "Seated pike — chest toward knees, hands by hips. Feeds all compression skills.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "20–30s",
+        "rest_seconds": 60,
+        "frequency_per_week": "4–5"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 30,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=cu0fHp8HCDo",
+          "title": "L-sit holds — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 30,
+          "end_seconds": 60
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Hanging_Pike",
+          "title": "Form GIF · Hanging Pike",
+          "channel": "anatome.dev",
+          "ext_id": "Hanging_Pike"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Push down hard",
+        "Knees above hips",
+        "Depress scapulae"
+      ],
+      "common_faults": [
+        "Hips behind hands",
+        "Leaning back"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "vsm-tuck-v",
+      "order": 2,
+      "name": "Tuck V-sit",
+      "level": "advanced",
+      "track": "v-sit",
+      "intent": "Support hold with knees above hip line — first V shape.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "10–20s",
+        "rest_seconds": 90,
+        "frequency_per_week": "3–4"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 15,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=cu0fHp8HCDo",
+          "title": "L-sit holds — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 30,
+          "end_seconds": 60
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Hanging_Pike",
+          "title": "Form GIF · Hanging Pike",
+          "channel": "anatome.dev",
+          "ext_id": "Hanging_Pike"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Wide straddle",
+        "Toes pointed",
+        "Compression"
+      ],
+      "common_faults": [
+        "Bent knees",
+        "Hips dropping"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "vsm-straddle-v",
+      "order": 3,
+      "name": "Straddle V-sit",
+      "level": "advanced",
+      "track": "v-sit",
+      "intent": "Legs straddle wide, raised past L-line.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "10–15s",
+        "rest_seconds": 120,
+        "frequency_per_week": "3"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 10,
+        "value_max": 15,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=cu0fHp8HCDo",
+          "title": "L-sit holds — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 30,
+          "end_seconds": 60
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Hanging_Pike",
+          "title": "Form GIF · Hanging Pike",
+          "channel": "anatome.dev",
+          "ext_id": "Hanging_Pike"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Maximum compression",
+        "Push floor",
+        "Point toes"
+      ],
+      "common_faults": [
+        "Rounding without height",
+        "Bent arms"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "vsm-v-sit",
+      "order": 4,
+      "name": "V-sit hold",
+      "level": "elite",
+      "track": "v-sit",
+      "intent": "Legs together or near together, hips at or above hand level.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "8–15s",
+        "rest_seconds": 120,
+        "frequency_per_week": "2–3"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 10,
+        "value_max": 15,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=cu0fHp8HCDo",
+          "title": "L-sit holds — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 30,
+          "end_seconds": 60
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Hanging_Pike",
+          "title": "Form GIF · Hanging Pike",
+          "channel": "anatome.dev",
+          "ext_id": "Hanging_Pike"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Hips over wrists",
+        "Shoulders forward of hands",
+        "Hard protraction"
+      ],
+      "common_faults": [
+        "Still at L-sit height",
+        "Wrist collapse"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "vsm-tuck-manna",
+      "order": 5,
+      "name": "Tuck manna / elevated hips",
+      "level": "elite",
+      "track": "manna",
+      "intent": "Hips clearly above hands — tuck manna shape on parallettes or floor.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "5–10s",
+        "rest_seconds": 150,
+        "frequency_per_week": "2–3"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 8,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=cu0fHp8HCDo",
+          "title": "L-sit holds — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 30,
+          "end_seconds": 60
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Hanging_Pike",
+          "title": "Form GIF · Hanging Pike",
+          "channel": "anatome.dev",
+          "ext_id": "Hanging_Pike"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Wide straddle reduces compression demand",
+        "Shoulders depressed"
+      ],
+      "common_faults": [
+        "Piking without hip height"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "vsm-straddle-manna",
+      "order": 6,
+      "name": "Straddle manna",
+      "level": "elite",
+      "track": "manna",
+      "intent": "Legs wide, hips high — primary manna milestone.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "5–10s",
+        "rest_seconds": 180,
+        "frequency_per_week": "2"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 10,
+        "value_max": 15,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=cu0fHp8HCDo",
+          "title": "L-sit holds — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 30,
+          "end_seconds": 60
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Hanging_Pike",
+          "title": "Form GIF · Hanging Pike",
+          "channel": "anatome.dev",
+          "ext_id": "Hanging_Pike"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Extreme compression",
+        "Parallettes help wrist angle"
+      ],
+      "common_faults": [
+        "Insufficient hip height",
+        "Bent elbows"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "vsm-manna",
+      "order": 7,
+      "name": "Full manna hold",
+      "level": "elite",
+      "track": "manna",
+      "intent": "Legs together (or near), hips above hands — elite compression hold.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "5–10s",
+        "rest_seconds": 180,
+        "frequency_per_week": "2"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 5,
+        "value_max": 10,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=cu0fHp8HCDo",
+          "title": "L-sit holds — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 30,
+          "end_seconds": 60
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Hanging_Pike",
+          "title": "Form GIF · Hanging Pike",
+          "channel": "anatome.dev",
+          "ext_id": "Hanging_Pike"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Compression initiates lift",
+        "Shoulders forward"
+      ],
+      "common_faults": [
+        "Jumping feet instead of pressing"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "vsm-manna-press",
+      "order": 8,
+      "name": "Manna press / lift",
+      "level": "elite",
+      "track": "manna",
+      "intent": "Press from seated pike into manna — dynamic elite goal.",
+      "programming": {
+        "sets": 5,
+        "reps_or_hold": "attempts",
+        "rest_seconds": 180,
+        "frequency_per_week": "1–2"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 1,
+        "sets": 1,
+        "notes": "1 clean press to manna"
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=cu0fHp8HCDo",
+          "title": "L-sit holds — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 30,
+          "end_seconds": 60
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Hanging_Pike",
+          "title": "Form GIF · Hanging Pike",
+          "channel": "anatome.dev",
+          "ext_id": "Hanging_Pike"
+        }
+      ]
+    }
+  ]
+}

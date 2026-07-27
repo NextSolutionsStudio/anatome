@@ -1,0 +1,300 @@
+{
+  "schema_version": 1,
+  "kind": "skill_tree",
+  "attribution": "Original progression text © NextSolutions / portfolio authors (CC-BY-4.0). Coaching conventions synthesized from publicly discussed standards (OG2, FitnessFAQs, GMB, CaliMove, r/bwf RR, street-workout). YouTube embeds stream from creators — not re-hosted. Muscle diagrams via api.anatome.dev.",
+  "license": "CC-BY-4.0",
+  "slug": "skin-the-cat",
+  "name": "Skin the Cat / German Hang",
+  "family": "pull",
+  "difficulty": "intermediate",
+  "summary": "Shoulder mobility + back-lever feeder. Cheap to learn, high safety ROI.",
+  "prerequisites": [
+    "foundations"
+  ],
+  "entry_assessment": [
+    {
+      "name": "Pull-ups",
+      "target": "8"
+    },
+    {
+      "name": "Shoulder extension ROM",
+      "target": "pain-free"
+    }
+  ],
+  "equipment": [
+    "rings",
+    "bar"
+  ],
+  "primary_muscles": [
+    "chest",
+    "biceps",
+    "upper-back"
+  ],
+  "secondary_muscles": [
+    "forearm",
+    "abs"
+  ],
+  "anatome_layers_payload": [
+    {
+      "color": "#DC2626",
+      "muscles": [
+        "chest",
+        "biceps",
+        "upper-back"
+      ]
+    },
+    {
+      "color": "#F59E0B",
+      "muscles": [
+        "forearm",
+        "abs"
+      ]
+    }
+  ],
+  "goal": {
+    "metric": "custom",
+    "value": 1,
+    "notes": "8 skin-the-cats + 45s German hang"
+  },
+  "programming": {
+    "skill_frequency_per_week": "3–5 light"
+  },
+  "safety": {
+    "injury_risk": "high",
+    "contraindications": [
+      "Biceps tendinopathy",
+      "Shoulder instability"
+    ],
+    "notes": "Rings preferred. Never bounce into German hang."
+  },
+  "sources": [
+    "OG2",
+    "GMB",
+    "FF"
+  ],
+  "steps": [
+    {
+      "cues": [
+        "Depress scapulae"
+      ],
+      "common_faults": [
+        "Dead passive hang only"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "stc-hang",
+      "order": 1,
+      "name": "Active hang",
+      "level": "beginner",
+      "intent": "Warm shoulders and grip.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "30s",
+        "rest_seconds": 45,
+        "frequency_per_week": "4"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 30,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=y0WhGgJlFSY",
+          "title": "Back lever coaching — demo clip",
+          "channel": "School of Calisthenics",
+          "start_seconds": 40,
+          "end_seconds": 70
+        },
+        {
+          "provider": "cali-gif",
+          "url": "assets/gifs/skin-the-cat.gif",
+          "title": "Demo GIF · skin the cat (AI)",
+          "channel": "anatome.dev · AI demo",
+          "ai_generated": true,
+          "file": "skin-the-cat.gif"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Slow",
+        "Keep rings close"
+      ],
+      "common_faults": [
+        "Kipping hard"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "stc-tuck",
+      "order": 2,
+      "name": "Tuck skin the cat",
+      "level": "intermediate",
+      "intent": "Tuck through to German hang and back.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "3–5",
+        "rest_seconds": 90,
+        "frequency_per_week": "3"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 5,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=y0WhGgJlFSY",
+          "title": "Back lever coaching — demo clip",
+          "channel": "School of Calisthenics",
+          "start_seconds": 40,
+          "end_seconds": 70
+        },
+        {
+          "provider": "cali-gif",
+          "url": "assets/gifs/skin-the-cat.gif",
+          "title": "Demo GIF · skin the cat (AI)",
+          "channel": "anatome.dev · AI demo",
+          "ai_generated": true,
+          "file": "skin-the-cat.gif"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Control both directions"
+      ],
+      "common_faults": [
+        "Incomplete ROM"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "stc-straight",
+      "order": 3,
+      "name": "Straight-leg skin the cat",
+      "level": "intermediate",
+      "intent": "Full ROM with straighter legs.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "5–8",
+        "rest_seconds": 90,
+        "frequency_per_week": "3"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 8,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=y0WhGgJlFSY",
+          "title": "Back lever coaching — demo clip",
+          "channel": "School of Calisthenics",
+          "start_seconds": 40,
+          "end_seconds": 70
+        },
+        {
+          "provider": "cali-gif",
+          "url": "assets/gifs/skin-the-cat.gif",
+          "title": "Demo GIF · skin the cat (AI)",
+          "channel": "anatome.dev · AI demo",
+          "ai_generated": true,
+          "file": "skin-the-cat.gif"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Open gradually",
+        "Breathe"
+      ],
+      "common_faults": [
+        "Bouncing"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "stc-german",
+      "order": 4,
+      "name": "German hang hold",
+      "level": "intermediate",
+      "intent": "Tissue conditioning bottom position.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "30–45s",
+        "rest_seconds": 90,
+        "frequency_per_week": "3–5"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 45,
+        "sets": 3
+      },
+      "safety_notes": "Gate for back-lever tree.",
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=y0WhGgJlFSY",
+          "title": "Back lever coaching — demo clip",
+          "channel": "School of Calisthenics",
+          "start_seconds": 40,
+          "end_seconds": 70
+        },
+        {
+          "provider": "cali-gif",
+          "url": "assets/gifs/german-hang.gif",
+          "title": "Demo GIF · german hang (AI)",
+          "channel": "anatome.dev · AI demo",
+          "ai_generated": true,
+          "file": "german-hang.gif"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Smooth arc"
+      ],
+      "common_faults": [
+        "Rushing"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "stc-ice-cream",
+      "order": 5,
+      "name": "Ice cream makers",
+      "level": "advanced",
+      "intent": "Dynamic FL/BL transition pattern.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "5",
+        "rest_seconds": 120,
+        "frequency_per_week": "2"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 5,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=y0WhGgJlFSY",
+          "title": "Back lever coaching — demo clip",
+          "channel": "School of Calisthenics",
+          "start_seconds": 40,
+          "end_seconds": 70
+        },
+        {
+          "provider": "cali-gif",
+          "url": "assets/gifs/skin-the-cat.gif",
+          "title": "Demo GIF · skin the cat (AI)",
+          "channel": "anatome.dev · AI demo",
+          "ai_generated": true,
+          "file": "skin-the-cat.gif"
+        }
+      ]
+    }
+  ]
+}

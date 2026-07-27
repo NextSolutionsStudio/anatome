@@ -1,0 +1,452 @@
+{
+  "schema_version": 1,
+  "kind": "skill_tree",
+  "attribution": "Original progression text © NextSolutions / portfolio authors (CC-BY-4.0). Coaching conventions synthesized from publicly discussed standards (OG2, FitnessFAQs, GMB, CaliMove, r/bwf RR, street-workout). YouTube embeds stream from creators — not re-hosted. Muscle diagrams via api.anatome.dev.",
+  "license": "CC-BY-4.0",
+  "slug": "one-arm-push-up",
+  "name": "One-Arm Push-up",
+  "family": "push",
+  "difficulty": "advanced",
+  "summary": "Unilateral horizontal push pinnacle. Archer → typewriter → assisted → negative → full OAPU.",
+  "prerequisites": [
+    "foundations"
+  ],
+  "entry_assessment": [
+    {
+      "name": "Standard push-ups",
+      "target": "3×15"
+    },
+    {
+      "name": "Archer push-ups",
+      "target": "5/side"
+    },
+    {
+      "name": "Pseudo planche push-ups",
+      "target": "8 with lean"
+    },
+    {
+      "name": "Side plank (each side)",
+      "target": "30s"
+    }
+  ],
+  "equipment": [
+    "floor",
+    "box",
+    "band",
+    "parallettes"
+  ],
+  "primary_muscles": [
+    "chest",
+    "triceps"
+  ],
+  "secondary_muscles": [
+    "deltoids",
+    "abs",
+    "obliques"
+  ],
+  "anatome_layers_payload": [
+    {
+      "color": "#DC2626",
+      "muscles": [
+        "chest",
+        "triceps"
+      ]
+    },
+    {
+      "color": "#F59E0B",
+      "muscles": [
+        "deltoids",
+        "abs",
+        "obliques"
+      ]
+    }
+  ],
+  "goal": {
+    "metric": "reps_per_side",
+    "value": 1,
+    "sets": 1,
+    "notes": "1 clean full-ROM OAPU each side"
+  },
+  "programming": {
+    "strength_frequency_per_week": "2–3",
+    "notes": "Keep non-working arm straight on the floor. Alternate sides each set."
+  },
+  "safety": {
+    "injury_risk": "moderate",
+    "contraindications": [
+      "Acute wrist pain",
+      "Shoulder instability under load"
+    ],
+    "notes": "Use a box or band assist for volume. Stop if elbow/wrist pain spikes."
+  },
+  "divergence_notes": "CC uses very high two-arm volume first; this tree follows archer/typewriter bridges common in FF/SW.",
+  "sources": [
+    "OG2",
+    "FF",
+    "CC",
+    "SW"
+  ],
+  "steps": [
+    {
+      "cues": [
+        "Shift over working arm",
+        "Other arm locked straight",
+        "Hollow body"
+      ],
+      "common_faults": [
+        "Twisting hips",
+        "Both arms bending equally"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "oapu-archer",
+      "order": 1,
+      "name": "Archer push-up",
+      "level": "intermediate",
+      "intent": "Shift load to one arm while the other stays straight for assist.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "6/side",
+        "rest_seconds": 120,
+        "frequency_per_week": "2–3"
+      },
+      "unlock": {
+        "metric": "reps_per_side",
+        "value": 6,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=H0k47Ghb0GY",
+          "title": "Push-up progression — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 40,
+          "end_seconds": 70
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Pushups",
+          "title": "Form GIF · Pushups",
+          "channel": "anatome.dev",
+          "ext_id": "Pushups"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Stay low",
+        "Shift smoothly side to side"
+      ],
+      "common_faults": [
+        "Popping up between shifts",
+        "Hips rotating"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "oapu-typewriter",
+      "order": 2,
+      "name": "Typewriter push-up",
+      "level": "advanced",
+      "intent": "Slide horizontally at the bottom — builds one-arm strength under tension.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "4/side",
+        "rest_seconds": 120,
+        "frequency_per_week": "2–3"
+      },
+      "unlock": {
+        "metric": "reps_per_side",
+        "value": 4,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=H0k47Ghb0GY",
+          "title": "Push-up progression — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 40,
+          "end_seconds": 70
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Pushups",
+          "title": "Form GIF · Pushups",
+          "channel": "anatome.dev",
+          "ext_id": "Pushups"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Same archer shift",
+        "Feet on box 15–30 cm"
+      ],
+      "common_faults": [
+        "Feet too high too soon"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "oapu-elevated-archer",
+      "order": 3,
+      "name": "Elevated archer push-up",
+      "level": "advanced",
+      "intent": "Feet elevated increases load on the working arm.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "5/side",
+        "rest_seconds": 150,
+        "frequency_per_week": "2"
+      },
+      "unlock": {
+        "metric": "reps_per_side",
+        "value": 5,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=H0k47Ghb0GY",
+          "title": "Push-up progression — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 40,
+          "end_seconds": 70
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Pushups",
+          "title": "Form GIF · Pushups",
+          "channel": "anatome.dev",
+          "ext_id": "Pushups"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Stack shoulders",
+        "Press from side plank bottom"
+      ],
+      "common_faults": [
+        "Hips sagging",
+        "Rotating to both-arm push-up"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "oapu-side-plank-push",
+      "order": 4,
+      "name": "Side plank + push-up hybrid",
+      "level": "advanced",
+      "intent": "Anti-rotation strength and single-arm pressing pattern.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "5/side",
+        "rest_seconds": 120,
+        "frequency_per_week": "2"
+      },
+      "unlock": {
+        "metric": "reps_per_side",
+        "value": 5,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=H0k47Ghb0GY",
+          "title": "Push-up progression — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 40,
+          "end_seconds": 70
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Pushups",
+          "title": "Form GIF · Pushups",
+          "channel": "anatome.dev",
+          "ext_id": "Pushups"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Minimize assist over weeks",
+        "Full ROM"
+      ],
+      "common_faults": [
+        "Using too much assist forever"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "oapu-assisted",
+      "order": 5,
+      "name": "Band / box-assisted one-arm push-up",
+      "level": "advanced",
+      "intent": "Near one-arm pattern with minimal assist.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "3–5/side",
+        "rest_seconds": 150,
+        "frequency_per_week": "2"
+      },
+      "unlock": {
+        "metric": "reps_per_side",
+        "value": 5,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=H0k47Ghb0GY",
+          "title": "Push-up progression — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 40,
+          "end_seconds": 70
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Pushups",
+          "title": "Form GIF · Pushups",
+          "channel": "anatome.dev",
+          "ext_id": "Pushups"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "5–8s lower",
+        "Stay square",
+        "Other arm behind back or on floor"
+      ],
+      "common_faults": [
+        "Twisting hard",
+        "Dropping through bottom"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "oapu-negative",
+      "order": 6,
+      "name": "One-arm push-up negative",
+      "level": "elite",
+      "intent": "Slow eccentric on one arm — groove the line.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "2–3/side",
+        "rest_seconds": 180,
+        "frequency_per_week": "2"
+      },
+      "unlock": {
+        "metric": "reps_per_side",
+        "value": 3,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=H0k47Ghb0GY",
+          "title": "Push-up progression — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 40,
+          "end_seconds": 70
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Pushups",
+          "title": "Form GIF · Pushups",
+          "channel": "anatome.dev",
+          "ext_id": "Pushups"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Controlled depth",
+        "Add range weekly"
+      ],
+      "common_faults": [
+        "Bouncing at sticky point"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "oapu-partial",
+      "order": 7,
+      "name": "Partial-ROM one-arm push-up",
+      "level": "elite",
+      "intent": "Short ROM reps building to full depth.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "3–5/side",
+        "rest_seconds": 180,
+        "frequency_per_week": "2"
+      },
+      "unlock": {
+        "metric": "reps_per_side",
+        "value": 5,
+        "sets": 3,
+        "notes": "≥¾ ROM"
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=H0k47Ghb0GY",
+          "title": "Push-up progression — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 40,
+          "end_seconds": 70
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Pushups",
+          "title": "Form GIF · Pushups",
+          "channel": "anatome.dev",
+          "ext_id": "Pushups"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Feet wide for balance",
+        "Chest to floor",
+        "Drive through working hand"
+      ],
+      "common_faults": [
+        "Incomplete depth",
+        "Huge hip twist"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "oapu-full",
+      "order": 8,
+      "name": "Full one-arm push-up",
+      "level": "elite",
+      "intent": "Unassisted full ROM — the skill.",
+      "programming": {
+        "sets": 5,
+        "reps_or_hold": "attempts",
+        "rest_seconds": 180,
+        "frequency_per_week": "2"
+      },
+      "unlock": {
+        "metric": "reps_per_side",
+        "value": 1,
+        "sets": 1
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=H0k47Ghb0GY",
+          "title": "Push-up progression — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 40,
+          "end_seconds": 70
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Pushups",
+          "title": "Form GIF · Pushups",
+          "channel": "anatome.dev",
+          "ext_id": "Pushups"
+        }
+      ]
+    }
+  ]
+}

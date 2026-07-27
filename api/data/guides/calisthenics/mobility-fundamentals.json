@@ -1,0 +1,492 @@
+{
+  "schema_version": 1,
+  "kind": "skill_tree",
+  "attribution": "Original progression text © NextSolutions / portfolio authors (CC-BY-4.0). Coaching conventions synthesized from publicly discussed standards (OG2, FitnessFAQs, GMB, CaliMove, r/bwf RR, street-workout). YouTube embeds stream from creators — not re-hosted. Muscle diagrams via api.anatome.dev.",
+  "license": "CC-BY-4.0",
+  "slug": "mobility-fundamentals",
+  "name": "Mobility Fundamentals",
+  "family": "foundation",
+  "difficulty": "beginner",
+  "summary": "Daily-ready mobility for calisthenics: wrists, shoulder flexion/extension, pike/pancake, bridge. Run before skill work.",
+  "prerequisites": [],
+  "entry_assessment": [
+    {
+      "name": "Pain-free daily movement",
+      "target": "no acute joint pain"
+    },
+    {
+      "name": "Forward fold",
+      "target": "hands to shins ok"
+    }
+  ],
+  "equipment": [
+    "floor",
+    "wall",
+    "band",
+    "stick",
+    "blocks"
+  ],
+  "primary_muscles": [
+    "forearm",
+    "deltoids",
+    "upper-back"
+  ],
+  "secondary_muscles": [
+    "hamstring",
+    "lower-back",
+    "chest"
+  ],
+  "anatome_layers_payload": [
+    {
+      "color": "#DC2626",
+      "muscles": [
+        "forearm",
+        "deltoids",
+        "upper-back"
+      ]
+    },
+    {
+      "color": "#F59E0B",
+      "muscles": [
+        "hamstring",
+        "lower-back",
+        "chest"
+      ]
+    }
+  ],
+  "goal": {
+    "metric": "custom",
+    "value": 1,
+    "notes": "Pass all mobility checkpoints — pain-free ROM for planche/handstand/lever prep"
+  },
+  "programming": {
+    "skill_frequency_per_week": "5–7 (daily light)",
+    "notes": "5–15 min sessions. Never force end-range. Breathe through holds."
+  },
+  "safety": {
+    "injury_risk": "low",
+    "contraindications": [
+      "Acute joint injury",
+      "Unstable shoulder requiring medical clearance"
+    ],
+    "notes": "Mobility is conditioning — mild stretch discomfort ok; sharp pain is not."
+  },
+  "divergence_notes": "GMB/FF emphasize daily wrist + shoulder prep; pancake/bridge depth varies widely by anatomy.",
+  "sources": [
+    "GMB",
+    "FF",
+    "OG2",
+    "CM"
+  ],
+  "tracks": [
+    {
+      "id": "wrist-shoulder",
+      "name": "Wrist & shoulder",
+      "step_ids": [
+        "mob-wrist-prep",
+        "mob-wrist-load",
+        "mob-shoulder-flexion",
+        "mob-shoulder-extension"
+      ]
+    },
+    {
+      "id": "lower-body",
+      "name": "Pike & pancake",
+      "step_ids": [
+        "mob-pike-fold",
+        "mob-pancake"
+      ]
+    },
+    {
+      "id": "bridge",
+      "name": "Bridge",
+      "step_ids": [
+        "mob-bridge-prep",
+        "mob-bridge-full"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "cues": [
+        "Slow circles both directions",
+        "Prayer stretch — palms together, elbows down"
+      ],
+      "common_faults": [
+        "Rushing",
+        "Loading before warm-up"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "mob-wrist-prep",
+      "order": 1,
+      "name": "Wrist circles + prayer stretch",
+      "level": "beginner",
+      "track": "wrist-shoulder",
+      "intent": "Baseline wrist warm-up before any hand-supported work.",
+      "programming": {
+        "sets": 2,
+        "reps_or_hold": "10 circles + 30s prayer",
+        "rest_seconds": 30,
+        "frequency_per_week": "5–7"
+      },
+      "unlock": {
+        "metric": "custom",
+        "value": 1,
+        "notes": "pain-free circles + 30s prayer"
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=odcPqBOlJhI",
+          "title": "Pseudo Planche Done RIGHT — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 45,
+          "end_seconds": 70
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Pushups",
+          "title": "Form GIF · Pushups",
+          "channel": "anatome.dev",
+          "ext_id": "Pushups"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Fingers forward or turned out slightly",
+        "Lean gently over wrists",
+        "Short bear-crawl holds"
+      ],
+      "common_faults": [
+        "Too much load too soon",
+        "Pain ignored"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "mob-wrist-load",
+      "order": 2,
+      "name": "Wrist extension load (lean + bear)",
+      "level": "beginner",
+      "track": "wrist-shoulder",
+      "intent": "Build tolerance for dorsiflexion under load — planche/handstand prep.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "20–30s lean",
+        "rest_seconds": 45,
+        "frequency_per_week": "5–7"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 30,
+        "sets": 3,
+        "notes": "pain-free loaded extension"
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=odcPqBOlJhI",
+          "title": "Pseudo Planche Done RIGHT — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 45,
+          "end_seconds": 70
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Pushups",
+          "title": "Form GIF · Pushups",
+          "channel": "anatome.dev",
+          "ext_id": "Pushups"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Band/stick dislocates — wide grip",
+        "Wall slides — ribs down"
+      ],
+      "common_faults": [
+        "Rib flare",
+        "Gripping too narrow on dislocates"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "mob-shoulder-flexion",
+      "order": 3,
+      "name": "Shoulder flexion (dislocates + wall slides)",
+      "level": "beginner",
+      "track": "wrist-shoulder",
+      "intent": "Overhead ROM for handstand, HSPU, manna.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "10 dislocates + 10 slides",
+        "rest_seconds": 45,
+        "frequency_per_week": "4–6"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 10,
+        "sets": 3,
+        "notes": "dislocates with good rib control"
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=d6_lcWtQDxw",
+          "title": "Handstand progression — wall demo clip",
+          "channel": "GMB Fitness (Praxis)",
+          "start_seconds": 35,
+          "end_seconds": 65
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Handstand_Push-Ups",
+          "title": "Form GIF · Handstand Push-Ups",
+          "channel": "anatome.dev",
+          "ext_id": "Handstand_Push-Ups"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Doorway stretch",
+        "Light supine hang on bar",
+        "Never bounce"
+      ],
+      "common_faults": [
+        "Forcing German hang depth early"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "mob-shoulder-extension",
+      "order": 4,
+      "name": "Shoulder extension (German hang prep)",
+      "level": "beginner",
+      "track": "wrist-shoulder",
+      "intent": "Open chest/shoulders for levers, skin-the-cat, dips.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "30s stretch + 15s hang",
+        "rest_seconds": 60,
+        "frequency_per_week": "4–6"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 15,
+        "sets": 3,
+        "notes": "light hang pain-free"
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=y0WhGgJlFSY",
+          "title": "Back lever coaching — demo clip",
+          "channel": "School of Calisthenics",
+          "start_seconds": 40,
+          "end_seconds": 70
+        },
+        {
+          "provider": "cali-gif",
+          "url": "assets/gifs/german-hang.gif",
+          "title": "Demo GIF · german hang (AI)",
+          "channel": "anatome.dev · AI demo",
+          "ai_generated": true,
+          "file": "german-hang.gif"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Hinge at hips",
+        "Micro-bend knees ok",
+        "Pull chest toward thighs"
+      ],
+      "common_faults": [
+        "Rounding only upper back",
+        "Bouncing aggressively"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "mob-pike-fold",
+      "order": 5,
+      "name": "Standing pike / forward fold",
+      "level": "beginner",
+      "track": "lower-body",
+      "intent": "Hamstring + spinal flexion for compression and handstand line.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "30–45s",
+        "rest_seconds": 45,
+        "frequency_per_week": "4–6"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 45,
+        "sets": 3,
+        "notes": "palms to floor or shins"
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=cu0fHp8HCDo",
+          "title": "L-sit holds — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 30,
+          "end_seconds": 60
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Hanging_Pike",
+          "title": "Form GIF · Hanging Pike",
+          "channel": "anatome.dev",
+          "ext_id": "Hanging_Pike"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Wide straddle seated",
+        "Fold forward between legs",
+        "Knees point up"
+      ],
+      "common_faults": [
+        "Rounding back only",
+        "Forcing knees down"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "mob-pancake",
+      "order": 6,
+      "name": "Pancake / middle split fold",
+      "level": "intermediate",
+      "track": "lower-body",
+      "intent": "Adductor + hip hinge for straddle skills and press work.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "30–60s",
+        "rest_seconds": 60,
+        "frequency_per_week": "3–5"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 45,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=LgPG0MZPI84",
+          "title": "Planche shapes — demo clip",
+          "channel": "Andry Strong",
+          "start_seconds": 60,
+          "end_seconds": 90
+        },
+        {
+          "provider": "cali-gif",
+          "url": "assets/gifs/straddle-planche.gif",
+          "title": "Demo GIF · straddle planche (AI)",
+          "channel": "anatome.dev · AI demo",
+          "ai_generated": true,
+          "file": "straddle-planche.gif"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Glute bridge holds",
+        "Elevated bridge on box",
+        "Push through feet and hands"
+      ],
+      "common_faults": [
+        "Lumbar-only bending",
+        "Knees flaring"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "mob-bridge-prep",
+      "order": 7,
+      "name": "Bridge prep (glute bridge + elevated)",
+      "level": "beginner",
+      "track": "bridge",
+      "intent": "Spinal extension strength before full wheel.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "10 glute + 20s elevated",
+        "rest_seconds": 60,
+        "frequency_per_week": "3–4"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 20,
+        "sets": 3,
+        "notes": "elevated bridge"
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=skVSiMgOhc0",
+          "title": "Hollow-body hold — short tutorial (~25s clip)",
+          "channel": "BJ Gaddour",
+          "start_seconds": 5,
+          "end_seconds": 30
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Plank",
+          "title": "Form GIF · Plank",
+          "channel": "anatome.dev",
+          "ext_id": "Plank"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Push chest through arms",
+        "Straight legs if able",
+        "Breathe"
+      ],
+      "common_faults": [
+        "Collapsing into lumbar",
+        "Holding breath"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "mob-bridge-full",
+      "order": 8,
+      "name": "Full bridge / wheel hold",
+      "level": "intermediate",
+      "track": "bridge",
+      "intent": "Full spinal extension — shoulder flexion under load.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "15–30s",
+        "rest_seconds": 90,
+        "frequency_per_week": "2–4"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 30,
+        "sets": 3,
+        "notes": "pain-free wheel or bridge"
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=skVSiMgOhc0",
+          "title": "Hollow-body hold — short tutorial (~25s clip)",
+          "channel": "BJ Gaddour",
+          "start_seconds": 5,
+          "end_seconds": 30
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Plank",
+          "title": "Form GIF · Plank",
+          "channel": "anatome.dev",
+          "ext_id": "Plank"
+        }
+      ]
+    }
+  ]
+}

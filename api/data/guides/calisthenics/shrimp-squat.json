@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "kind": "skill_tree",
+  "attribution": "Original progression text © NextSolutions / portfolio authors (CC-BY-4.0). Coaching conventions synthesized from publicly discussed standards (OG2, FitnessFAQs, GMB, CaliMove, r/bwf RR, street-workout). YouTube embeds stream from creators — not re-hosted. Muscle diagrams via api.anatome.dev.",
+  "license": "CC-BY-4.0",
+  "slug": "shrimp-squat",
+  "name": "Shrimp Squat",
+  "family": "legs",
+  "difficulty": "advanced",
+  "summary": "Rear-leg-held single-leg squat — complements pistol for complete unilateral coverage.",
+  "prerequisites": [
+    "pistol-squat"
+  ],
+  "entry_assessment": [
+    {
+      "name": "Pistol or deep single-leg squat",
+      "target": "3×5/side or equivalent"
+    },
+    {
+      "name": "Deep knee flexion mobility",
+      "target": "pain-free"
+    }
+  ],
+  "equipment": [
+    "floor",
+    "pole",
+    "box"
+  ],
+  "primary_muscles": [
+    "quadriceps",
+    "gluteal"
+  ],
+  "secondary_muscles": [
+    "hamstring",
+    "calves"
+  ],
+  "anatome_layers_payload": [
+    {
+      "color": "#DC2626",
+      "muscles": [
+        "quadriceps",
+        "gluteal"
+      ]
+    },
+    {
+      "color": "#F59E0B",
+      "muscles": [
+        "hamstring",
+        "calves"
+      ]
+    }
+  ],
+  "goal": {
+    "metric": "reps_per_side",
+    "value": 5,
+    "sets": 3
+  },
+  "programming": {
+    "strength_frequency_per_week": "2"
+  },
+  "safety": {
+    "injury_risk": "moderate",
+    "contraindications": [
+      "Acute knee pain",
+      "Limited knee flexion"
+    ]
+  },
+  "sources": [
+    "CM",
+    "FF"
+  ],
+  "steps": [
+    {
+      "cues": [
+        "Knee tracks toes",
+        "Upright torso as able"
+      ],
+      "common_faults": [
+        "Losing rear-foot grip"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "shrimp-assisted",
+      "order": 1,
+      "name": "Assisted shrimp",
+      "level": "intermediate",
+      "intent": "Hold rear foot, use pole for balance.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "5/side",
+        "rest_seconds": 90,
+        "frequency_per_week": "2–3"
+      },
+      "unlock": {
+        "metric": "reps_per_side",
+        "value": 5,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=vq5-vdgJc0I",
+          "title": "Pistol squat — demo clip",
+          "channel": "Tom Merrick (Bodyweight Warrior)",
+          "start_seconds": 45,
+          "end_seconds": 75
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Kettlebell_Pistol_Squat",
+          "title": "Form GIF · Kettlebell Pistol Squat",
+          "channel": "anatome.dev",
+          "ext_id": "Kettlebell_Pistol_Squat"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Control the sit"
+      ],
+      "common_faults": [
+        "Plopping"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "shrimp-box",
+      "order": 2,
+      "name": "Box shrimp",
+      "level": "intermediate",
+      "intent": "Partial depth to a box.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "5/side",
+        "rest_seconds": 90,
+        "frequency_per_week": "2–3"
+      },
+      "unlock": {
+        "metric": "reps_per_side",
+        "value": 5,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=vq5-vdgJc0I",
+          "title": "Pistol squat — demo clip",
+          "channel": "Tom Merrick (Bodyweight Warrior)",
+          "start_seconds": 45,
+          "end_seconds": 75
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Kettlebell_Pistol_Squat",
+          "title": "Form GIF · Kettlebell Pistol Squat",
+          "channel": "anatome.dev",
+          "ext_id": "Kettlebell_Pistol_Squat"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "3–5s lower"
+      ],
+      "common_faults": [
+        "Twisting"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "shrimp-negative",
+      "order": 3,
+      "name": "Negative shrimp",
+      "level": "advanced",
+      "intent": "Slow eccentric shrimp.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "3–5/side",
+        "rest_seconds": 120,
+        "frequency_per_week": "2"
+      },
+      "unlock": {
+        "metric": "reps_per_side",
+        "value": 5,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=vq5-vdgJc0I",
+          "title": "Pistol squat — demo clip",
+          "channel": "Tom Merrick (Bodyweight Warrior)",
+          "start_seconds": 45,
+          "end_seconds": 75
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Kettlebell_Pistol_Squat",
+          "title": "Form GIF · Kettlebell Pistol Squat",
+          "channel": "anatome.dev",
+          "ext_id": "Kettlebell_Pistol_Squat"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Rear knee soft toward floor",
+        "Drive up"
+      ],
+      "common_faults": [
+        "Bouncing"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "shrimp-full",
+      "order": 4,
+      "name": "Full shrimp squat",
+      "level": "advanced",
+      "intent": "Unassisted full ROM.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "3–5/side",
+        "rest_seconds": 150,
+        "frequency_per_week": "2"
+      },
+      "unlock": {
+        "metric": "reps_per_side",
+        "value": 5,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=vq5-vdgJc0I",
+          "title": "Pistol squat — demo clip",
+          "channel": "Tom Merrick (Bodyweight Warrior)",
+          "start_seconds": 45,
+          "end_seconds": 75
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Kettlebell_Pistol_Squat",
+          "title": "Form GIF · Kettlebell Pistol Squat",
+          "channel": "anatome.dev",
+          "ext_id": "Kettlebell_Pistol_Squat"
+        }
+      ]
+    }
+  ]
+}

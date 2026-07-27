@@ -1,0 +1,254 @@
+{
+  "schema_version": 1,
+  "kind": "skill_tree",
+  "attribution": "Original progression text © NextSolutions / portfolio authors (CC-BY-4.0). Coaching conventions synthesized from publicly discussed standards (OG2, FitnessFAQs, GMB, CaliMove, r/bwf RR, street-workout). YouTube embeds stream from creators — not re-hosted. Muscle diagrams via api.anatome.dev.",
+  "license": "CC-BY-4.0",
+  "slug": "elbow-lever",
+  "name": "Elbow Lever",
+  "family": "balance",
+  "difficulty": "intermediate",
+  "summary": "Straight-arm elbow-supported balance — accessible planche-family skill.",
+  "prerequisites": [
+    "foundations"
+  ],
+  "entry_assessment": [
+    {
+      "name": "Frog stand",
+      "target": "30s"
+    },
+    {
+      "name": "Wrist mobility",
+      "target": "pain-free"
+    }
+  ],
+  "equipment": [
+    "floor",
+    "parallettes"
+  ],
+  "primary_muscles": [
+    "abs",
+    "deltoids",
+    "triceps"
+  ],
+  "secondary_muscles": [
+    "chest",
+    "forearm"
+  ],
+  "anatome_layers_payload": [
+    {
+      "color": "#DC2626",
+      "muscles": [
+        "abs",
+        "deltoids",
+        "triceps"
+      ]
+    },
+    {
+      "color": "#F59E0B",
+      "muscles": [
+        "chest",
+        "forearm"
+      ]
+    }
+  ],
+  "goal": {
+    "metric": "hold_seconds",
+    "value": 30,
+    "sets": 3
+  },
+  "programming": {
+    "skill_frequency_per_week": "3–5"
+  },
+  "safety": {
+    "injury_risk": "low",
+    "contraindications": [
+      "Elbow pain when loading into abdomen"
+    ],
+    "notes": "Elbows dig into abdomen/obliques — find bony shelf, not soft belly."
+  },
+  "sources": [
+    "OG2",
+    "CM"
+  ],
+  "steps": [
+    {
+      "cues": [
+        "Look forward",
+        "Light fingers"
+      ],
+      "common_faults": [
+        "Collapsing elbows"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "elbow-frog",
+      "order": 1,
+      "name": "Frog stand (entry)",
+      "level": "beginner",
+      "intent": "Balance on hands with knees on arms.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "20–30s",
+        "rest_seconds": 60,
+        "frequency_per_week": "4"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 30,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=MJrFdfNmIEU",
+          "title": "Elbow lever — demo clip",
+          "channel": "Simonster Strength",
+          "start_seconds": 15,
+          "end_seconds": 40
+        },
+        {
+          "provider": "cali-gif",
+          "url": "assets/gifs/frog-stand.gif",
+          "title": "Demo GIF · frog stand (AI)",
+          "channel": "anatome.dev · AI demo",
+          "ai_generated": true,
+          "file": "frog-stand.gif"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Elbows on hip bones/obliques",
+        "Lean forward"
+      ],
+      "common_faults": [
+        "Elbows slipping"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "elbow-tuck",
+      "order": 2,
+      "name": "Tucked elbow lever",
+      "level": "intermediate",
+      "intent": "Elbows on abdomen, knees tucked, body horizontal-ish.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "15–20s",
+        "rest_seconds": 90,
+        "frequency_per_week": "3–4"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 20,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=MJrFdfNmIEU",
+          "title": "Elbow lever — demo clip",
+          "channel": "Simonster Strength",
+          "start_seconds": 15,
+          "end_seconds": 40
+        },
+        {
+          "provider": "cali-gif",
+          "url": "assets/gifs/elbow-lever.gif",
+          "title": "Demo GIF · elbow lever (AI)",
+          "channel": "anatome.dev · AI demo",
+          "ai_generated": true,
+          "file": "elbow-lever.gif"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Wide straddle for balance"
+      ],
+      "common_faults": [
+        "Piking hips"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "elbow-straddle",
+      "order": 3,
+      "name": "Straddle elbow lever",
+      "level": "intermediate",
+      "intent": "Extend legs into straddle.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "15–25s",
+        "rest_seconds": 90,
+        "frequency_per_week": "3"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 20,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=MJrFdfNmIEU",
+          "title": "Elbow lever — demo clip",
+          "channel": "Simonster Strength",
+          "start_seconds": 15,
+          "end_seconds": 40
+        },
+        {
+          "provider": "cali-gif",
+          "url": "assets/gifs/elbow-lever.gif",
+          "title": "Demo GIF · elbow lever (AI)",
+          "channel": "anatome.dev · AI demo",
+          "ai_generated": true,
+          "file": "elbow-lever.gif"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Squeeze glutes",
+        "Point toes"
+      ],
+      "common_faults": [
+        "Hips too high"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "elbow-full",
+      "order": 4,
+      "name": "Full elbow lever",
+      "level": "advanced",
+      "intent": "Legs together, body horizontal.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "20–30s",
+        "rest_seconds": 90,
+        "frequency_per_week": "3"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 30,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=MJrFdfNmIEU",
+          "title": "Elbow lever — demo clip",
+          "channel": "Simonster Strength",
+          "start_seconds": 15,
+          "end_seconds": 40
+        },
+        {
+          "provider": "cali-gif",
+          "url": "assets/gifs/elbow-lever.gif",
+          "title": "Demo GIF · elbow lever (AI)",
+          "channel": "anatome.dev · AI demo",
+          "ai_generated": true,
+          "file": "elbow-lever.gif"
+        }
+      ]
+    }
+  ]
+}

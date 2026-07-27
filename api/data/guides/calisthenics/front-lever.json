@@ -1,0 +1,536 @@
+{
+  "schema_version": 1,
+  "kind": "skill_tree",
+  "slug": "front-lever",
+  "name": "Front Lever",
+  "family": "pull",
+  "difficulty": "elite",
+  "summary": "Straight-arm horizontal pull hold. Progress tuck → advanced tuck → one-leg/straddle → full, with raises for strength.",
+  "prerequisites": [
+    "foundations"
+  ],
+  "entry_assessment": [
+    {
+      "name": "Strict dead-hang pull-ups",
+      "target": "8–10"
+    },
+    {
+      "name": "Hollow body hold",
+      "target": "30s"
+    },
+    {
+      "name": "Hanging leg raises to bar",
+      "target": "10"
+    },
+    {
+      "name": "Horizontal rows",
+      "target": "10–15"
+    },
+    {
+      "name": "Active hang",
+      "target": "30s"
+    }
+  ],
+  "equipment": [
+    "bar",
+    "rings",
+    "band"
+  ],
+  "primary_muscles": [
+    "upper-back",
+    "abs",
+    "lower-back"
+  ],
+  "secondary_muscles": [
+    "biceps",
+    "forearm",
+    "deltoids"
+  ],
+  "anatome_layers_payload": [
+    {
+      "color": "#DC2626",
+      "muscles": [
+        "upper-back",
+        "abs",
+        "lower-back"
+      ]
+    },
+    {
+      "color": "#F59E0B",
+      "muscles": [
+        "biceps",
+        "forearm",
+        "deltoids"
+      ]
+    }
+  ],
+  "goal": {
+    "metric": "hold_seconds",
+    "value": 10,
+    "value_max": 15,
+    "sets": 3,
+    "notes": "Full front lever, legs together"
+  },
+  "programming": {
+    "strength_frequency_per_week": "2–4",
+    "notes": "Alternate hold-focused and raise-focused sessions. Pair with planche."
+  },
+  "safety": {
+    "injury_risk": "moderate",
+    "contraindications": [
+      "Acute elbow tendinopathy",
+      "Uncontrolled lower-back pain"
+    ],
+    "notes": "Straight arms required — bent-arm “muscle” FL is a different skill."
+  },
+  "divergence_notes": "Some street-workout athletes allow slight bent arms; this tree requires straight arms (OG/FF).",
+  "sources": [
+    "OG2",
+    "FF",
+    "CM",
+    "SW"
+  ],
+  "attribution": "Original progression text © NextSolutions / portfolio authors (CC-BY-4.0). Coaching conventions synthesized from publicly discussed standards (OG2, FitnessFAQs, GMB, CaliMove, r/bwf RR, street-workout). YouTube embeds stream from creators — not re-hosted. Muscle diagrams via api.anatome.dev.",
+  "license": "CC-BY-4.0",
+  "steps": [
+    {
+      "cues": [
+        "Depress + retract scapulae",
+        "Hips at shoulder height",
+        "Pull the bar toward the hips"
+      ],
+      "common_faults": [
+        "Piking hips",
+        "Bent arms",
+        "Swinging into position"
+      ],
+      "drills": [
+        {
+          "slug": "scapular-pull-up",
+          "name": "Scapular pull-up",
+          "role": "accessory",
+          "instructions": [
+            "Dead hang → depress scapulae, arms stay straight"
+          ]
+        }
+      ],
+      "exercise_refs": [],
+      "id": "front-lever-tuck",
+      "order": 1,
+      "name": "Tuck front lever hold",
+      "level": "intermediate",
+      "intent": "Hold horizontal line with knees tucked from a hang.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "20–45s",
+        "rest_seconds": 180,
+        "frequency_per_week": "2–4"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 30,
+        "value_max": 45,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=AGhb8V8M758",
+          "title": "Front lever progressions — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 55,
+          "end_seconds": 85
+        },
+        {
+          "provider": "cali-gif",
+          "url": "assets/gifs/front-lever-tuck.gif",
+          "title": "Demo GIF · front lever tuck (AI)",
+          "channel": "anatome.dev · AI demo",
+          "ai_generated": true,
+          "file": "front-lever-tuck.gif"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Control the lower",
+        "No kip"
+      ],
+      "common_faults": [
+        "Using momentum",
+        "Stopping short of horizontal"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "front-lever-tuck-raises",
+      "order": 2,
+      "name": "Tuck front lever raises",
+      "level": "intermediate",
+      "intent": "Pull strength through the tuck FL range (inverted → tuck → inverted).",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "6–8 reps",
+        "rest_seconds": 180,
+        "frequency_per_week": "2–3"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 8,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=AGhb8V8M758",
+          "title": "Front lever progressions — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 55,
+          "end_seconds": 85
+        },
+        {
+          "provider": "cali-gif",
+          "url": "assets/gifs/front-lever-raises.gif",
+          "title": "Demo GIF · front lever raises (AI)",
+          "channel": "anatome.dev · AI demo",
+          "ai_generated": true,
+          "file": "front-lever-raises.gif"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Flatten the back",
+        "Open hips without dropping"
+      ],
+      "common_faults": [
+        "Still rounded (regular tuck)",
+        "Arched low back"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "front-lever-advanced-tuck",
+      "order": 3,
+      "name": "Advanced tuck front lever",
+      "level": "advanced",
+      "intent": "Open hips, flatten back, knees still tucked.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "20–30s",
+        "rest_seconds": 180,
+        "frequency_per_week": "2–4"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 30,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=AGhb8V8M758",
+          "title": "Front lever progressions — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 55,
+          "end_seconds": 85
+        },
+        {
+          "provider": "cali-gif",
+          "url": "assets/gifs/front-lever-advanced-tuck.gif",
+          "title": "Demo GIF · front lever advanced tuck (AI)",
+          "channel": "anatome.dev · AI demo",
+          "ai_generated": true,
+          "file": "front-lever-advanced-tuck.gif"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Same line as the hold"
+      ],
+      "common_faults": [
+        "Losing flat back mid-rep"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "front-lever-advanced-tuck-raises",
+      "order": 4,
+      "name": "Advanced tuck front lever raises",
+      "level": "advanced",
+      "intent": "Dynamic strength at advanced-tuck lever.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "6–8 reps",
+        "rest_seconds": 180,
+        "frequency_per_week": "2–3"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 6,
+        "value_max": 8,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=AGhb8V8M758",
+          "title": "Front lever progressions — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 55,
+          "end_seconds": 85
+        },
+        {
+          "provider": "cali-gif",
+          "url": "assets/gifs/front-lever-raises.gif",
+          "title": "Demo GIF · front lever raises (AI)",
+          "channel": "anatome.dev · AI demo",
+          "ai_generated": true,
+          "file": "front-lever-raises.gif"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Keep hips square",
+        "Both sides equal"
+      ],
+      "common_faults": [
+        "Twisting",
+        "Bent arms"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "front-lever-one-leg",
+      "order": 5,
+      "name": "One-leg front lever",
+      "level": "advanced",
+      "intent": "Extend one leg; switch sides for balanced strength.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "12–15s/side",
+        "rest_seconds": 180,
+        "frequency_per_week": "2–3"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 15,
+        "sets": 3,
+        "notes": "each side"
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=AGhb8V8M758",
+          "title": "Front lever progressions — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 55,
+          "end_seconds": 85
+        },
+        {
+          "provider": "cali-gif",
+          "url": "assets/gifs/front-lever-straddle.gif",
+          "title": "Demo GIF · front lever one leg (AI)",
+          "channel": "anatome.dev · AI demo",
+          "ai_generated": true,
+          "file": "front-lever-straddle.gif"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Wide straddle",
+        "Toes pointed",
+        "Hollow brace"
+      ],
+      "common_faults": [
+        "Piked hips",
+        "Soft elbows"
+      ],
+      "drills": [
+        {
+          "slug": "dragon-flag",
+          "name": "Dragon flag",
+          "role": "accessory",
+          "instructions": [
+            "Anti-extension core carryover — see dragon-flag tree"
+          ]
+        }
+      ],
+      "exercise_refs": [],
+      "id": "front-lever-straddle",
+      "order": 6,
+      "name": "Straddle front lever",
+      "level": "advanced",
+      "intent": "Legs split, body horizontal.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "15–30s",
+        "rest_seconds": 180,
+        "frequency_per_week": "2–3"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 20,
+        "value_max": 30,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=AGhb8V8M758",
+          "title": "Front lever progressions — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 55,
+          "end_seconds": 85
+        },
+        {
+          "provider": "cali-gif",
+          "url": "assets/gifs/front-lever-straddle.gif",
+          "title": "Demo GIF · front lever straddle (AI)",
+          "channel": "anatome.dev · AI demo",
+          "ai_generated": true,
+          "file": "front-lever-straddle.gif"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Smooth tempo",
+        "No kip"
+      ],
+      "common_faults": [
+        "Kipping",
+        "Incomplete ROM"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "front-lever-straddle-raises",
+      "order": 7,
+      "name": "Straddle front lever raises",
+      "level": "elite",
+      "intent": "Pull through straddle FL from inverted hang.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "3–5 reps",
+        "rest_seconds": 240,
+        "frequency_per_week": "2"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 5,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=AGhb8V8M758",
+          "title": "Front lever progressions — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 55,
+          "end_seconds": 85
+        },
+        {
+          "provider": "cali-gif",
+          "url": "assets/gifs/front-lever-raises.gif",
+          "title": "Demo GIF · front lever raises (AI)",
+          "channel": "anatome.dev · AI demo",
+          "ai_generated": true,
+          "file": "front-lever-raises.gif"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Squeeze legs",
+        "Long line shoulders to heels"
+      ],
+      "common_faults": [
+        "Bent arms",
+        "Piked hips"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "full-front-lever",
+      "order": 8,
+      "name": "Full front lever",
+      "level": "elite",
+      "intent": "Legs together, body horizontal — the skill goal.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "5–15s",
+        "rest_seconds": 240,
+        "frequency_per_week": "2–3"
+      },
+      "unlock": {
+        "metric": "hold_seconds",
+        "value": 10,
+        "value_max": 15,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=AGhb8V8M758",
+          "title": "Front lever progressions — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 55,
+          "end_seconds": 85
+        },
+        {
+          "provider": "cali-gif",
+          "url": "assets/gifs/full-front-lever.gif",
+          "title": "Demo GIF · full front lever (AI)",
+          "channel": "anatome.dev · AI demo",
+          "ai_generated": true,
+          "file": "full-front-lever.gif"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Strict hollow",
+        "Full ROM"
+      ],
+      "common_faults": [
+        "Partial ROM",
+        "Bent arms"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "front-lever-full-raises",
+      "order": 9,
+      "name": "Full front lever raises",
+      "level": "elite",
+      "intent": "Pull from dead hang through full FL to inverted — elite strength.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "1–3 reps",
+        "rest_seconds": 240,
+        "frequency_per_week": "1–2"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 3,
+        "sets": 3,
+        "notes": "elite+"
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=AGhb8V8M758",
+          "title": "Front lever progressions — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 55,
+          "end_seconds": 85
+        },
+        {
+          "provider": "cali-gif",
+          "url": "assets/gifs/front-lever-raises.gif",
+          "title": "Demo GIF · front lever raises (AI)",
+          "channel": "anatome.dev · AI demo",
+          "ai_generated": true,
+          "file": "front-lever-raises.gif"
+        }
+      ]
+    }
+  ]
+}

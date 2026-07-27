@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "kind": "skill_tree",
+  "attribution": "Original progression text © NextSolutions / portfolio authors (CC-BY-4.0). Coaching conventions synthesized from publicly discussed standards (OG2, FitnessFAQs, GMB, CaliMove, r/bwf RR, street-workout). YouTube embeds stream from creators — not re-hosted. Muscle diagrams via api.anatome.dev.",
+  "license": "CC-BY-4.0",
+  "slug": "hanging-leg-raise",
+  "name": "Hanging Leg Raise",
+  "family": "core",
+  "difficulty": "intermediate",
+  "summary": "Anti-extension from the bar: knee raise → strict HLR → toes-to-bar. Feeds front lever and L-work.",
+  "prerequisites": [
+    "foundations"
+  ],
+  "entry_assessment": [
+    {
+      "name": "Dead hang",
+      "target": "30s"
+    },
+    {
+      "name": "Hollow hold",
+      "target": "30s"
+    },
+    {
+      "name": "Scapular pull-ups",
+      "target": "8"
+    }
+  ],
+  "equipment": [
+    "bar",
+    "rings",
+    "band",
+    "chalk"
+  ],
+  "primary_muscles": [
+    "abs",
+    "forearm"
+  ],
+  "secondary_muscles": [
+    "upper-back",
+    "biceps",
+    "adductors"
+  ],
+  "anatome_layers_payload": [
+    {
+      "color": "#DC2626",
+      "muscles": [
+        "abs",
+        "forearm"
+      ]
+    },
+    {
+      "color": "#F59E0B",
+      "muscles": [
+        "upper-back",
+        "biceps",
+        "adductors"
+      ]
+    }
+  ],
+  "goal": {
+    "metric": "reps",
+    "value": 10,
+    "sets": 3,
+    "notes": "Strict toes-to-bar, no kip"
+  },
+  "programming": {
+    "strength_frequency_per_week": "2–4",
+    "notes": "Initiate from posterior pelvic tilt / hollow. Avoid swinging volume."
+  },
+  "safety": {
+    "injury_risk": "low",
+    "contraindications": [
+      "Acute lower-back pain with hanging",
+      "Elbow tendinopathy limiting hang time"
+    ],
+    "notes": "Bent-knee variants reduce load — use them for volume."
+  },
+  "sources": [
+    "OG2",
+    "FF",
+    "RR",
+    "CM"
+  ],
+  "steps": [
+    {
+      "cues": [
+        "Posterior pelvic tilt",
+        "Knees to chest",
+        "Minimal swing"
+      ],
+      "common_faults": [
+        "Using momentum",
+        "Loosing shoulder engagement"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "hlr-knee-raise",
+      "order": 1,
+      "name": "Hanging knee raise",
+      "level": "beginner",
+      "intent": "Learn hollow-initiated hip flexion without swing.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "10–15",
+        "rest_seconds": 60,
+        "frequency_per_week": "3–4"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 15,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=MhokcbRLP5w",
+          "title": "Pull-up form — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 40,
+          "end_seconds": 70
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Pullups",
+          "title": "Form GIF · Pullups",
+          "channel": "anatome.dev",
+          "ext_id": "Pullups"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Same hollow start",
+        "Control the lower"
+      ],
+      "common_faults": [
+        "Swinging into reps"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "hlr-bent-leg",
+      "order": 2,
+      "name": "Hanging bent-leg raise",
+      "level": "beginner",
+      "intent": "Extend lever slightly — knees at 90°.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "10",
+        "rest_seconds": 75,
+        "frequency_per_week": "3–4"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 10,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=MhokcbRLP5w",
+          "title": "Pull-up form — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 40,
+          "end_seconds": 70
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Pullups",
+          "title": "Form GIF · Pullups",
+          "channel": "anatome.dev",
+          "ext_id": "Pullups"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Point toes",
+        "Stop at 90° if full ROM not ready"
+      ],
+      "common_faults": [
+        "Arching low back",
+        "Kipping"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "hlr-90",
+      "order": 3,
+      "name": "Hanging leg raise to 90°",
+      "level": "intermediate",
+      "intent": "Straight legs to parallel — strict form.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "8–12",
+        "rest_seconds": 90,
+        "frequency_per_week": "3"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 12,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=MhokcbRLP5w",
+          "title": "Pull-up form — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 40,
+          "end_seconds": 70
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Pullups",
+          "title": "Form GIF · Pullups",
+          "channel": "anatome.dev",
+          "ext_id": "Pullups"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Hollow body",
+        "Slow negative",
+        "Depress scapulae at top"
+      ],
+      "common_faults": [
+        "Incomplete ROM",
+        "Using hip drive from swing"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "hlr-strict",
+      "order": 4,
+      "name": "Strict hanging leg raise",
+      "level": "intermediate",
+      "intent": "Straight legs to the bar or near-bar without kip.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "6–10",
+        "rest_seconds": 120,
+        "frequency_per_week": "2–3"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 10,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=MhokcbRLP5w",
+          "title": "Pull-up form — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 40,
+          "end_seconds": 70
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Pullups",
+          "title": "Form GIF · Pullups",
+          "channel": "anatome.dev",
+          "ext_id": "Pullups"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Same hollow",
+        "Full extension at bottom"
+      ],
+      "common_faults": [
+        "Half reps",
+        "Excessive kip"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "hlr-toes-to-bar",
+      "order": 5,
+      "name": "Toes to bar",
+      "level": "advanced",
+      "intent": "Full ROM — toes touch bar every rep, strict.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "8–10",
+        "rest_seconds": 120,
+        "frequency_per_week": "2–3"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 10,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=MhokcbRLP5w",
+          "title": "Pull-up form — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 40,
+          "end_seconds": 70
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Pullups",
+          "title": "Form GIF · Pullups",
+          "channel": "anatome.dev",
+          "ext_id": "Pullups"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Control both directions",
+        "Start bent-knee"
+      ],
+      "common_faults": [
+        "Dropping legs uncontrolled"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "hlr-windshield",
+      "order": 6,
+      "name": "Windshield wiper (bent knee → straight)",
+      "level": "advanced",
+      "intent": "Rotational control at 90° — oblique + hip flexor strength.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "5/side",
+        "rest_seconds": 120,
+        "frequency_per_week": "2"
+      },
+      "unlock": {
+        "metric": "reps_per_side",
+        "value": 5,
+        "sets": 3
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=MhokcbRLP5w",
+          "title": "Pull-up form — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 40,
+          "end_seconds": 70
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Pullups",
+          "title": "Form GIF · Pullups",
+          "channel": "anatome.dev",
+          "ext_id": "Pullups"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Point toes",
+        "Hold 3–5s at top of each rep or static"
+      ],
+      "common_faults": [
+        "Swinging up"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "hlr-hanging-l",
+      "order": 7,
+      "name": "Hanging L / V raise",
+      "level": "advanced",
+      "intent": "Hold legs at 90° or higher — static compression from hang.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "5–8",
+        "rest_seconds": 120,
+        "frequency_per_week": "2–3"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 8,
+        "sets": 3,
+        "notes": "3s pause at top"
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=cu0fHp8HCDo",
+          "title": "L-sit holds — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 30,
+          "end_seconds": 60
+        },
+        {
+          "provider": "anatome-gif",
+          "url": "https://api.anatome.dev/exerciseGif?id=Hanging_Pike",
+          "title": "Form GIF · Hanging Pike",
+          "channel": "anatome.dev",
+          "ext_id": "Hanging_Pike"
+        }
+      ]
+    },
+    {
+      "cues": [
+        "Ankle weights or slow 5s lower"
+      ],
+      "common_faults": [
+        "Ego loading"
+      ],
+      "drills": [],
+      "exercise_refs": [],
+      "id": "hlr-weighted",
+      "order": 8,
+      "name": "Weighted / slow eccentric HLR",
+      "level": "elite",
+      "intent": "Overload or 5s lowers — strength cap for FL prep.",
+      "programming": {
+        "sets": 3,
+        "reps_or_hold": "5–8",
+        "rest_seconds": 150,
+        "frequency_per_week": "2"
+      },
+      "unlock": {
+        "metric": "reps",
+        "value": 8,
+        "sets": 3,
+        "notes": "strict or weighted"
+      },
+      "media": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=AGhb8V8M758",
+          "title": "Front lever progressions — demo clip",
+          "channel": "FitnessFAQs",
+          "start_seconds": 55,
+          "end_seconds": 85
+        },
+        {
+          "provider": "cali-gif",
+          "url": "assets/gifs/front-lever-raises.gif",
+          "title": "Demo GIF · front lever raises (AI)",
+          "channel": "anatome.dev · AI demo",
+          "ai_generated": true,
+          "file": "front-lever-raises.gif"
+        }
+      ]
+    }
+  ]
+}
