@@ -15,8 +15,8 @@ jobs:
     name: Frontend (lint + typecheck)
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: 20
           cache: npm
@@ -35,7 +35,7 @@ jobs:
       run:
         working-directory: api
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       # The api/ package lands in Phase 3. Until then, skip gracefully.
       - name: Detect api package
         id: detect
@@ -47,11 +47,11 @@ jobs:
             echo "exists=false" >> "$GITHUB_OUTPUT"
             echo "api/package.json not present yet — skipping API checks."
           fi
-      - uses: pnpm/action-setup@v4
+      - uses: pnpm/action-setup@v6
         if: steps.detect.outputs.exists == 'true'
         with:
           version: 9
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         if: steps.detect.outputs.exists == 'true'
         with:
           node-version: 22
@@ -83,17 +83,17 @@ jobs:
     # waits for approval.
     environment: production
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Skip if API not ready
         id: detect
         working-directory: .
         run: |
           if [ -f api/package.json ]; then echo "exists=true" >> "$GITHUB_OUTPUT"; else echo "exists=false" >> "$GITHUB_OUTPUT"; fi
-      - uses: pnpm/action-setup@v4
+      - uses: pnpm/action-setup@v6
         if: steps.detect.outputs.exists == 'true'
         with:
           version: 9
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         if: steps.detect.outputs.exists == 'true'
         with:
           node-version: 22
@@ -104,7 +104,7 @@ jobs:
         run: pnpm install --frozen-lockfile
       - name: Deploy (production)
         if: steps.detect.outputs.exists == 'true'
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
